@@ -6,6 +6,10 @@ html {
     box-sizing: border-box;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 /*      Navigation Bar      */
 
 .nav li a {
@@ -61,9 +65,7 @@ html {
     height: 100%;
     text-align: center;
     overflow: hidden;
-}
-.img-content {
-    margin: 10rem;
+    align-items: center;
 }
 .img-content h1 {
     font-family: 'Monoton', cursive;
@@ -84,4 +86,24 @@ html {
 .btn:active {
     position: relative;
     top: 0.2rem;
+}
+
+/*      About Me        */
+.about {
+    margin-top: 2rem;
+}
+
+.col-sm-3 {
+    padding: 0 1rem;
+
+}
+
+
+/*      Experience Section      */
+
+.experience {
+    margin-top: 2rem;
+}
+.experience img {
+    align-self: center;
 }

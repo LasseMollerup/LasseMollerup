@@ -1,0 +1,26 @@
+/*      Universal styles        */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/*      Navigation Bar      */
+
+.nav li a {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+#active {
+    color: hsla(201, 62%, 52%, 1);
+    background-color: inherit;
+}
+@media only screen and (max-width: 767px) {
+    #logo {
+        display: none;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+}

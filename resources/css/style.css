@@ -24,3 +24,64 @@ html {
         text-align: center;
     }
 }
+
+/*      Slick Carousel      */
+.jumbotron-img {
+    height: 40rem;
+    width: 100%;
+    margin-top: 3.5rem;
+}
+#slideshow {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+#carousel1 {
+    background-image: url("../images/views.jpg");
+}
+#carousel2 {
+    background-image: url("../images/viewf.jpg");
+}
+#carousel3 {
+    background-image: url("../images/IMG_4190.jpg");
+}
+#carousel4 {
+    background-image: url("../images/wallpaper.jpg");
+}
+#carousel5 {
+    background-image: url("../images/jump.jpg");
+}
+
+#carousel1, #carousel2, #carousel3, #carousel4, #carousel5 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.img-content {
+    margin: 10rem;
+}
+.img-content h1 {
+    font-family: 'Monoton', cursive;
+    letter-spacing: 0.2rem;
+    font-size: 7.1rem;
+    text-shadow: -1px -1px 0 hsla(360, 100%, 100%, 1),
+  1px -1px 0 hsla(360, 100%, 100%, 1), -1px 1px 0 hsla(360, 100%, 100%, 1), 1px 1px 0 hsla(360, 100%, 100%, 1);
+}
+.img-content p {
+    color: hsla(360, 100%, 100%, 1);
+    font-size: 3rem;
+    text-shadow: -1px -1px 0 hsla(0, 0%, 0%, 1),
+                 1px -1px 0 hsla(0, 0%, 0%, 1), 
+                 -1px 1px 0 hsla(0, 0%, 0%, 1), 
+                 1px 1px 0 hsla(0, 0%, 0%, 1);
+
+}
+.btn:active {
+    position: relative;
+    top: 0.2rem;
+}

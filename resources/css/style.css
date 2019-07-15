@@ -8,7 +8,10 @@ html {
 body {
     background-color: hsla(0, 16%, 87%, 0.7)
 }
-
+h1 {
+    text-align: center;
+    font-size: 5.1rem;
+}
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -53,14 +56,12 @@ body {
     background-image: url("../images/viewf.jpg");
 }
 #carousel3 {
-    background-image: url("../images/IMG_4190.jpg");
-}
-#carousel4 {
     background-image: url("../images/wallpaper.jpg");
 }
-#carousel5 {
-    background-image: url("../images/jump.jpg");
+#carousel4 {
+    background-image: url("../images/IMG_4190.jpg");
 }
+
 
 #carousel1, #carousel2, #carousel3, #carousel4, #carousel5 {
     background-position: center center;
@@ -70,6 +71,9 @@ body {
     text-align: center;
     overflow: hidden;
     align-items: center;
+}
+.img-content {
+    margin-top: 20%;
 }
 .img-content h1 {
     font-family: 'Monoton', cursive;
@@ -87,19 +91,30 @@ body {
                  1px 1px 0 hsla(0, 0%, 0%, 1);
 
 }
+.img-content a {
+    text-shadow: -1px -1px 0 hsla(0, 0%, 0%, 1),
+    1px -1px 0 hsla(0, 0%, 0%, 1), 
+    -1px 1px 0 hsla(0, 0%, 0%, 1), 
+    1px 1px 0 hsla(0, 0%, 0%, 1);
+
+}
 .btn:active {
     position: relative;
     top: 0.2rem;
 }
-
+@media only screen and (max-width: 767px) {
+    .jumbotron-img {
+        position: relative;
+        top: 8.9rem;
+    }
+}
 /*      About Me        */
 .about {
     margin-top: 2rem;
 }
 
-.col-sm-3 {
-    padding: 0 1rem;
-
+.about h1 {
+    padding-bottom: 2rem;
 }
 
 

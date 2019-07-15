@@ -4,5 +4,6 @@ $(document).ready(function(){
         autospeed: 10000,
         speed: 2000,
         arrows: true,
+        dots: true,
     });
 });

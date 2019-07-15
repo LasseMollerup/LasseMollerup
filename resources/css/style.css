@@ -5,10 +5,14 @@ html {
     font-size: 14px;
     box-sizing: border-box;
 }
+body {
+    background-color: hsla(0, 16%, 87%, 0.7)
+}
 
 .img-fluid {
     max-width: 100%;
     height: auto;
+    border: 0.4rem solid hsla(360, 100%, 100%, 1);
 }
 /*      Navigation Bar      */
 

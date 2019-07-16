@@ -53,10 +53,10 @@ h1 {
     background-image: url("../images/views.jpg");
 }
 #carousel2 {
-    background-image: url("../images/viewf.jpg");
+    background-image: url("../images/wallpaper.jpg");
 }
 #carousel3 {
-    background-image: url("../images/wallpaper.jpg");
+    background-image: url("../images/viewf.jpg");
 }
 #carousel4 {
     background-image: url("../images/IMG_4190.jpg");
@@ -112,11 +112,51 @@ h1 {
 .about {
     margin-top: 2rem;
 }
-
+#about-img {
+    max-height: 30rem;
+}
 .about h1 {
     padding-bottom: 2rem;
 }
+#jump {
+    background-image: url("../images/jump.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    border: 0.4rem solid hsla(360, 100%, 100%, 1);
+}
+#jump h2 {
+    color: hsla(360, 100%, 100%, 1);
+    text-shadow: -1px -1px 0 hsla(0, 0%, 0%, 1),
+    1px -1px 0 hsla(0, 0%, 0%, 1), 
+    -1px 1px 0 hsla(0, 0%, 0%, 1), 
+    1px 1px 0 hsla(0, 0%, 0%, 1);
+    margin-top: 5rem;
+}
+.jumping-h2 {
+    padding-left: 0.5rem;
+}
 
+
+/*      Passions Section      */
+.passion {
+    margin: 2rem auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 2px solid hsla(0, 0%, 0%, 1);
+    border-bottom: 2px solid hsla(0, 0%, 0%, 1);
+
+}
+.pas-img {
+    max-height: 27rem;
+    overflow: hidden;
+    justify-self: center;
+
+}
 
 /*      Experience Section      */
 

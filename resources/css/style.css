@@ -112,24 +112,26 @@ h1 {
 .about {
     margin-top: 2rem;
 }
-#about-img {
-    max-height: 30rem;
-}
 .about h1 {
     padding-bottom: 2rem;
 }
-#jump {
-    background-image: url("../images/jump.jpg");
+#jump, #about-img {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: auto;
+    min-height: 25rem;
     text-align: center;
     overflow: hidden;
     border: 0.4rem solid hsla(360, 100%, 100%, 1);
 }
-#jump h2 {
+#about-img {
+    background-image: url("../images/views.JPG")
+}
+#jump {
+    background-image: url("../images/jump.jpg");
+}
+#jump h2, #about-img h2 {
     color: hsla(360, 100%, 100%, 1);
     text-shadow: -1px -1px 0 hsla(0, 0%, 0%, 1),
     1px -1px 0 hsla(0, 0%, 0%, 1), 
@@ -154,8 +156,12 @@ h1 {
 .pas-img {
     max-height: 27rem;
     overflow: hidden;
-    justify-self: center;
+}
 
+@media only screen and (max-width: 670px) {
+    .pas-img {
+      justify-self: center;
+    }
 }
 
 /*      Experience Section      */

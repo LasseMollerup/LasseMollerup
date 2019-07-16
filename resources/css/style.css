@@ -114,6 +114,12 @@ h1 {
 }
 .about h1 {
     padding-bottom: 2rem;
+    color: hsla(360, 100%, 100%, 1);
+    font-weight: bold;
+    text-shadow: -1px -1px 0 hsla(0, 0%, 0%, 1),
+    1px -1px 0 hsla(0, 0%, 0%, 1), 
+    -1px 1px 0 hsla(0, 0%, 0%, 1), 
+    1px 1px 0 hsla(0, 0%, 0%, 1);
 }
 #jump, #about-img {
     background-position: center center;
@@ -141,6 +147,9 @@ h1 {
 }
 .jumping-h2 {
     padding-left: 0.5rem;
+}
+.about p {
+    padding-right: 3rem;
 }
 
 
@@ -171,4 +180,7 @@ h1 {
 }
 .experience img {
     align-self: center;
+}
+.experience p {
+    padding-right: 8rem;
 }

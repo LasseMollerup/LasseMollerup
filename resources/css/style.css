@@ -184,3 +184,16 @@ h1 {
 .experience p {
     padding-right: 8rem;
 }
+
+/*      Testimonials        */
+
+.testimonials {
+    border: 2px solid red;
+}
+
+.box-test {
+    height: 20rem;
+    background-color: hsla(201, 62%, 52%, 1);
+    border: 0.4rem solid hsla(360, 100%, 100%, 1);
+    margin: 1rem;
+}

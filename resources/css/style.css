@@ -176,24 +176,31 @@ h1 {
 /*      Experience Section      */
 
 .experience {
-    margin-top: 2rem;
-}
-.experience img {
-    align-self: center;
-}
-.experience p {
-    padding-right: 8rem;
-}
+    margin: 2rem auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 2px solid hsla(0, 0%, 0%, 1);
+    border-bottom: 2px solid hsla(0, 0%, 0%, 1);
 
-/*      Testimonials        */
-
-.testimonials {
-    border: 2px solid red;
 }
-
-.box-test {
-    height: 20rem;
-    background-color: hsla(201, 62%, 52%, 1);
+.experience .row {
+    justify-content: space-between;
+    display: inline-flex;
+}
+.box {
+    margin: 2rem auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(109, 156, 182);
     border: 0.4rem solid hsla(360, 100%, 100%, 1);
-    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.box img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    align-self: center;
 }

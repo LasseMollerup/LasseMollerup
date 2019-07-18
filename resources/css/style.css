@@ -40,6 +40,7 @@ h1 {
     }
 }
 
+/*      Main html       */
 /*      Slick Carousel      */
 .jumbotron-img {
     height: 40rem;
@@ -182,9 +183,9 @@ h1 {
     }
 }
 
-/*      Experience Section      */
+/*      Testimonials Section      */
 
-.experience {
+.testimonials {
     margin: 2rem auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -192,7 +193,7 @@ h1 {
     border-bottom: 2px solid hsla(0, 0%, 0%, 1);
 
 }
-.experience .row {
+.testimonials .row {
     display: flex;
 }
 
@@ -214,7 +215,6 @@ h1 {
     max-width: 50%;
     min-width: 200px;
     height: auto;
-    /* border-radius: 50%; */
     align-self: center;
     margin: 1rem;
 }
@@ -224,4 +224,20 @@ h1 {
 }
 .justify-content-around {
     justify-content: space-around;
+}
+
+
+
+
+
+/*      Experience Page     */
+.experience {
+    margin-top: 7rem;
+    padding: 2rem 0;
+    border-top: 2px solid hsla(0, 0%, 0%, 1);
+    border-bottom: 2px solid hsla(0, 0%, 0%, 1); 
+}
+.ref {
+    margin: 1rem 0;
+    font-size: 0.8rem;
 }

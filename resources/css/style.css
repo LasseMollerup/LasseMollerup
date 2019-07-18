@@ -115,6 +115,7 @@ h1 {
 /*      About Me        */
 .about {
     margin-top: 2rem;
+    border-top: 2px solid hsla(0, 0%, 0%, 1);
 }
 .about h1 {
     padding-bottom: 2rem;
@@ -131,7 +132,7 @@ h1 {
     background-size: cover;
     width: 100%;
     min-height: 25rem;
-    text-align: center;
+
     overflow: hidden;
     border: 0.4rem solid hsla(360, 100%, 100%, 1);
 }
@@ -163,12 +164,16 @@ h1 {
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-top: 2px solid hsla(0, 0%, 0%, 1);
-    border-bottom: 2px solid hsla(0, 0%, 0%, 1);
+    
 
 }
 .pas-img {
     max-height: 27rem;
     overflow: hidden;
+}
+.passion h3, .passion p {
+    text-align: start;
+    padding: 1rem;
 }
 
 @media only screen and (max-width: 670px) {
@@ -214,7 +219,7 @@ h1 {
     margin: 1rem;
 }
 .box-content {
-    padding: 0 0 4rem 4rem;
+    padding: 0 3rem 4rem 3rem;
     border-radius: 5rem;
 }
 .justify-content-around {

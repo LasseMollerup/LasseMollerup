@@ -189,25 +189,30 @@ h1 {
 
 .box {
     margin: 2rem 1rem;
-    padding: 0;
+    padding:0;
     border: 0.4rem solid hsla(360, 100%, 100%, 1);
+    border-radius: 5rem;
 }
 
 .box-img {
     background-color: rgb(109, 156, 182);
     display: flex;
     flex-direction: column;
+    border-radius: 5rem 5rem 0 0;
 }
 
 .box-img .img-fluid {
-    max-width: 80%;
+    max-width: 50%;
     min-width: 200px;
     height: auto;
     border-radius: 50%;
     align-self: center;
     margin: 1rem;
 }
-
 .box-content {
-    padding-left: 0.5rem;
+    padding: 0 0 4rem 4rem;
+    border-radius: 5rem;
+}
+.justify-content-around {
+    justify-content: space-around;
 }

@@ -1,4 +1,12 @@
 /*      Universal styles        */
+.colorpalette {
+    color: hsla(204, 66%, 77%, 1); /* Sky Blue */
+    color: hsla(22, 41%, 71%, 1); /* Tan */
+    color: hsla(180, 2%, 45%, 1); /* Slate Gray */
+    color: hsla(44, 23%, 16%, 1); /* Dark Olive */
+    color: hsla(208, 18%, 84%, 1); /* Light Steel Blue */
+}
+
 
 html {
     font-family: 'Open Sans', sans-serif;
@@ -6,34 +14,60 @@ html {
     box-sizing: border-box;
 }
 body {
-    background-color: hsla(0, 16%, 87%, 0.7)
+    background-image: linear-gradient(to bottom right, hsla(22, 41%, 71%, 1), hsla(360, 100%, 100%, 1),  hsla(180, 2%, 45%, 1), hsla(44, 23%, 16%, 1));
+    color: hsla(180, 2%, 45%, 1);
 }
 h1 {
     text-align: center;
     font-size: 5.1rem;
+}
+h2 {
+    color: hsla(44, 23%, 16%, 1);
 }
 .img-fluid {
     max-width: 100%;
     height: auto;
     border: 0.4rem solid hsla(360, 100%, 100%, 1);
 }
+.btn {
+    background-color: hsla(22, 41%, 71%, 1);
+    color: hsla(180, 2%, 45%, 1);
+    border: hsla(22, 41%, 71%, 1);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btn:active {
+    position: relative;
+    top: 0.2rem;
+}
+.btn:hover {
+    background-color: hsla(208, 18%, 84%, 1);
+    color: hsla(44, 23%, 16%, 1);
+}
 /*      Navigation Bar      */
 .nav {
     padding-left: 2rem;
     align-items: center;
     height: 5rem;
-    background-color: hsla(0, 16%, 87%, 0.7);
+    background-color: hsla(22, 41%, 71%, 0.7);
 }
 
 .nav li a {
     font-size: 1.1rem;
     font-weight: bold;
-    color: hsla(360, 100%, 100%, 1);
+    color: hsla(180, 2%, 45%, 0.5);
 }
 #active {
-    color: hsla(201, 62%, 52%, 1);
+    color: hsla(44, 23%, 16%, 1);
     background-color: inherit;
 }
+.nav li a:hover, #active:hover  {
+    background-color: hsla(180, 2%, 45%, 1);
+    color: hsla(44, 23%, 16%, 1);
+    border-radius: 5rem;
+}
+
+
 @media only screen and (max-width: 767px) {
     .nav {
         text-align: center;
@@ -84,29 +118,21 @@ h1 {
     font-family: 'Monoton', cursive;
     letter-spacing: 0.2rem;
     font-size: 7.1rem;
+    color: hsla(44, 23%, 16%, 1);
     text-shadow: -1px -1px 0 hsla(360, 100%, 100%, 1),
   1px -1px 0 hsla(360, 100%, 100%, 1), -1px 1px 0 hsla(360, 100%, 100%, 1), 1px 1px 0 hsla(360, 100%, 100%, 1);
 }
 .img-content p {
     color: hsla(360, 100%, 100%, 1);
     font-size: 3rem;
-    text-shadow: -1px -1px 0 hsla(0, 0%, 0%, 1),
-                 1px -1px 0 hsla(0, 0%, 0%, 1), 
-                 -1px 1px 0 hsla(0, 0%, 0%, 1), 
-                 1px 1px 0 hsla(0, 0%, 0%, 1);
+    text-shadow: -1px -1px 0 hsla(44, 23%, 16%, 1),
+                 1px -1px 0 hsla(44, 23%, 16%, 1), 
+                 -1px 1px 0 hsla(44, 23%, 16%, 1), 
+                 1px 1px 0 hsla(44, 23%, 16%, 1);
 
 }
-.img-content a {
-    text-shadow: -1px -1px 0 hsla(0, 0%, 0%, 1),
-    1px -1px 0 hsla(0, 0%, 0%, 1), 
-    -1px 1px 0 hsla(0, 0%, 0%, 1), 
-    1px 1px 0 hsla(0, 0%, 0%, 1);
 
-}
-.btn:active {
-    position: relative;
-    top: 0.2rem;
-}
+
 @media only screen and (max-width: 767px) {
     .jumbotron-img {
         position: relative;
@@ -127,14 +153,17 @@ h1 {
     -1px 1px 0 hsla(0, 0%, 0%, 1), 
     1px 1px 0 hsla(0, 0%, 0%, 1);
 }
+
 #jump, #about-img {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     width: 100%;
     min-height: 25rem;
-
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 0.4rem solid hsla(360, 100%, 100%, 1);
 }
 #about-img {
@@ -149,15 +178,18 @@ h1 {
     1px -1px 0 hsla(0, 0%, 0%, 1), 
     -1px 1px 0 hsla(0, 0%, 0%, 1), 
     1px 1px 0 hsla(0, 0%, 0%, 1);
-    margin-top: 5rem;
+
 }
 .jumping-h2 {
-    padding-left: 0.5rem;
+    padding-left: 1rem;
 }
 .about p {
-    padding-right: 3rem;
+    padding: auto 3rem auto 4rem;
 }
-
+.about-content, .jumping {
+    background-color: hsla(360, 100%, 100%, 1);
+    padding: 0;
+}
 
 /*      Passions Section      */
 .passion {
@@ -189,8 +221,8 @@ h1 {
     margin: 2rem auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border-top: 2px solid hsla(0, 0%, 0%, 1);
-    border-bottom: 2px solid hsla(0, 0%, 0%, 1);
+    border-top: 2px solid hsla(44, 23%, 16%, 1);
+    border-bottom: 2px solid hsla(44, 23%, 16%, 1);
 
 }
 .testimonials .row {
@@ -202,10 +234,11 @@ h1 {
     padding:0;
     border: 0.4rem solid hsla(360, 100%, 100%, 1);
     border-radius: 5rem;
+    background-color: hsla(360, 100%, 100%, 1);
 }
 
 .box-img {
-    background-color: rgb(109, 156, 182);
+    background-color: hsla(22, 41%, 71%, 1);
     display: flex;
     flex-direction: column;
     border-radius: 5rem 5rem 0 0;

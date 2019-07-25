@@ -85,41 +85,11 @@ h2 {
 /*      Main html       */
 
 /*      Slick Carousel      */
-.jumbotron-img {
-    height: 45rem;
-    width: 100%;
-    margin-bottom: 10rem;
-}
-#slideshow {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    background-color: hsla(171, 83%, 21%, 1);
-    
-}
 
-#carou1 {
-    align-items: center;
-    height: 100%;
-    margin-bottom: 50rem;
-    margin: auto 0 auto 0;
-    border: 2px solid red;
-    
-}
-.carousel-items {
-    height: 100%;
-    align-items: center;
-    border: 3px dotted darkblue;
-}
 
-.carousel h1 {
-    color: hsla(360, 100%, 100%, 1);
-}
-.frame1 {
+
+
+/* .frame1 {
     border: 3px solid hsla(172, 45%, 78%, 1);
     position: absolute;
     top: -5%;
@@ -141,14 +111,10 @@ h2 {
     width: 100%;
     background-color: hsla(360, 100%, 100%, 0);
     z-index: 2;
-}
-#row-id {
-    margin-top: 5%;
-    border: 2px dotted red;
-}
+} */
 /*      About Me        */
 .about {
-    margin-top: 50rem;
+    /* margin-top: 50rem; */
     border-top: 2px solid hsla(171, 83%, 21%, 1);
 }
 .about h1 {

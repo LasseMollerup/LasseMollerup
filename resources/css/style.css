@@ -86,7 +86,7 @@ h2 {
 
 /*      Slick Carousel      */
 .jumbotron-img {
-    height: 35rem;
+    height: 45rem;
     width: 100%;
     margin-bottom: 10rem;
 }
@@ -110,15 +110,42 @@ h2 {
     border: 2px solid red;
     
 }
-
 .carousel-items {
     height: 100%;
     align-items: center;
     border: 3px dotted darkblue;
 }
 
-
-
+.carousel h1 {
+    color: hsla(360, 100%, 100%, 1);
+}
+.frame1 {
+    border: 3px solid hsla(172, 45%, 78%, 1);
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(360, 100%, 100%, 0);
+    z-index: -1;
+}
+.slick-img {
+    z-index: 1;
+}
+.frame2 {
+    border: 3px solid hsla(118, 83%, 16%, 1);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(360, 100%, 100%, 0);
+    z-index: 2;
+}
+#row-id {
+    margin-top: 5%;
+    border: 2px dotted red;
+}
 /*      About Me        */
 .about {
     margin-top: 50rem;

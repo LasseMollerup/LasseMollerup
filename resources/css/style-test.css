@@ -54,12 +54,10 @@ h2 {
 .nav {
     padding-left: 2rem;
     align-items: center;
-    height: 5rem;
+    height: 4rem;
     /* background-color: hsla(171, 83%, 21%, 0.7); */
 }
-.nav-item2 {
-    display: none;
-}
+
 .nav li a {
     font-size: 1.1rem;
     font-weight: bold;
@@ -83,45 +81,71 @@ h2 {
 }
 
 /*      Main html       */
-
 /*      Slick Carousel      */
 .jumbotron-img {
-    height: 35rem;
+    height: 32rem;
     width: 100%;
-    margin-bottom: 10rem;
+    /* margin-top: 5rem; */
 }
 #slideshow {
-    height: 100%;
-    width: 100%;
     position: relative;
     display: block;
     overflow: hidden;
     margin: 0;
-    padding: 0;
-    background-color: hsla(171, 83%, 21%, 1);
-    
+    padding: 0 0 2 0;
+}
+#carousel1 {
+    background-image: url("../images/test/Baggrund1.png");
+}
+#carousel2 {
+    background-image: url("../images/test/Baggrund2.png");
+}
+#carousel3 {
+    background-image: url("../images/test/Baggrund3.png");
+}
+#carousel4 {
+    background-image: url("../images/test/Baggrund4.png");
 }
 
-#carou1 {
-    align-items: center;
+
+#carousel1, #carousel2, #carousel3, #carousel4, #carousel5 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
-    margin-bottom: 50rem;
-    margin: auto 0 auto 0;
-    border: 2px solid red;
-    
-}
-
-.carousel-items {
-    height: 100%;
+    text-align: center;
+    overflow: hidden;
     align-items: center;
-    border: 3px dotted darkblue;
+}
+.img-content {
+    margin-top: 5%;
+}
+.img-content h1 {
+    
+    letter-spacing: 0.2rem;
+    font-size: 7.1rem;
+    color: hsla(360, 100%, 100%, 1);
+}
+.img-content p {
+    color: hsla(360, 100%, 100%, 1);
+    font-size: 3rem;
+    text-shadow: -1px -1px 0 hsla(44, 23%, 16%, 1),
+                 1px -1px 0 hsla(44, 23%, 16%, 1), 
+                 -1px 1px 0 hsla(44, 23%, 16%, 1), 
+                 1px 1px 0 hsla(44, 23%, 16%, 1);
+
 }
 
 
-
+@media only screen and (max-width: 767px) {
+    .jumbotron-img {
+        position: relative;
+        top: 8.9rem;
+    }
+}
 /*      About Me        */
 .about {
-    margin-top: 50rem;
+    margin-top: 2rem;
     border-top: 2px solid hsla(171, 83%, 21%, 1);
 }
 .about h1 {

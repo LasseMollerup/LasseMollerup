@@ -26,9 +26,10 @@ body {
 h1 {
     text-align: center;
     font-size: 5.1rem;
+    color: hsla(360, 100%, 100%, 1);
 }
 h2 {
-    color: hsla(180, 2%, 45%, 0.5);
+    color: hsla(360, 100%, 100%, 1);
 }
 .img-fluid {
     max-width: 100%;
@@ -84,22 +85,33 @@ h2 {
 
 /*      Main html       */
 
-/*      Slick Carousel      */
+/*      Bootstrap Carousel      */
 
-
-
-
-/* .frame1 {
-    border: 3px solid hsla(172, 45%, 78%, 1);
+#carouselExampleIndicators {
+    height: 40rem;
+    overflow: hidden;
+}
+.carousel-inner {
+    background-color: hsla(171, 83%, 21%, 1);
+}
+.carousel-item {
+    height: 100%;
+}
+.carousel-item .row {
+    align-items: center;
+    margin: 2rem;
+}
+.frame1 {
+    border: 3px solid hsla(360, 100%, 100%, 1);
     position: absolute;
     top: -5%;
     left: -5%;
     height: 100%;
     width: 100%;
     background-color: hsla(360, 100%, 100%, 0);
-    z-index: -1;
+    z-index: 0;
 }
-.slick-img {
+.carousel-item .row img {
     z-index: 1;
 }
 .frame2 {
@@ -111,12 +123,27 @@ h2 {
     width: 100%;
     background-color: hsla(360, 100%, 100%, 0);
     z-index: 2;
-} */
-/*      About Me        */
-.about {
-    /* margin-top: 50rem; */
-    border-top: 2px solid hsla(171, 83%, 21%, 1);
 }
+
+
+/*      Slide       2 */
+
+.carousel-item {
+    width: 100%;
+    margin-top: 10rem;
+}
+.box-content div h3, .box-content div p {
+    color: hsla(360, 100%, 100%, 1);
+}
+
+/*      Carousel Controls       */
+
+.carousel-control-prev, .carousel-control-next {
+    top: 30rem;
+}
+
+/*      About Me        */
+/* 
 .about h1 {
     padding-bottom: 2rem;
     color: hsla(360, 100%, 100%, 1);
@@ -165,7 +192,7 @@ h2 {
 }
 
 /*      Passions Section      */
-.passion {
+/* .passion {
     margin: 2rem auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -190,7 +217,7 @@ h2 {
 
 /*      Testimonials Section      */
 
-.testimonials {
+/* .testimonials {
     margin: 2rem auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -233,11 +260,11 @@ h2 {
 }
 
 
-
+ */
 
 
 /*      Experience Page     */
-.experience {
+/* .experience {
     margin-top: 7rem;
     padding: 2rem 0;
     border-top: 2px solid hsla(171, 83%, 21%, 1);
@@ -246,4 +273,4 @@ h2 {
 .ref {
     margin: 1rem 0;
     font-size: 0.8rem;
-}
+}  */

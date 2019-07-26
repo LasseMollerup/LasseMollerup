@@ -15,7 +15,6 @@ html {
     box-sizing: border-box;
 }
 body {
-    /* background-image: linear-gradient(to bottom right, hsla(22, 41%, 71%, 1), hsla(360, 100%, 100%, 1),  hsla(180, 2%, 45%, 1), hsla(44, 23%, 16%, 1)); */
     background-image: url("../images/Background1250x6000px.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,13 +89,12 @@ h2 {
 #carouselExampleIndicators {
     height: 40rem;
     overflow: hidden;
+    color: hsla(360, 100%, 100%, 1);
 }
 .carousel-inner {
     background-color: hsla(171, 83%, 21%, 1);
 }
-.carousel-item {
-    height: 100%;
-}
+
 .carousel-item .row {
     align-items: center;
     margin: 2rem;
@@ -106,10 +104,13 @@ h2 {
     position: absolute;
     top: -5%;
     left: -5%;
-    height: 100%;
-    width: 100%;
+    max-height: 300px;
+    max-width: 300px;
     background-color: hsla(360, 100%, 100%, 0);
     z-index: 0;
+}
+.frame1 img {
+    opacity: 0;
 }
 .carousel-item .row img {
     z-index: 1;
@@ -119,18 +120,26 @@ h2 {
     position: absolute;
     top: 5%;
     left: 5%;
-    height: 100%;
-    width: 100%;
+    max-height: 300px;
+    max-width: 300px;
     background-color: hsla(360, 100%, 100%, 0);
     z-index: 2;
 }
+.frame2 img {
+    opacity: 0;
+}
+/*      Slide 1     */
+.slide1 img {
+    max-width: 350px;
+    height: auto;
+}
 
+/*      Slide 2     */
 
-/*      Slide       2 */
-
-.carousel-item {
-    width: 100%;
+.slide2 {
     margin-top: 10rem;
+    height: 100%;
+    width: 100%;
 }
 .box-content div h3, .box-content div p {
     color: hsla(360, 100%, 100%, 1);

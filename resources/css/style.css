@@ -83,11 +83,15 @@ h2 {
 /*      Main html       */
 
 /*      Bootstrap Carousel      */
-
 #carouselExampleIndicators {
     height: 40rem;
     overflow: hidden;
     color: hsla(360, 100%, 100%, 1);
+}
+
+#carouselExampleIndicators h2 {
+    color: hsla(118, 83%, 16%, 1);
+    font-weight: 700;
 }
 .carousel-inner {
     background-color: hsla(171, 83%, 21%, 1);
@@ -122,9 +126,7 @@ h2 {
 .slide1 .row {
     height: 100%;
 }
-.content-slide1 h2 {
-    color: hsla(118, 83%, 16%, 1);
-}
+
 .slide-img1 {
     position: relative;
     /* border: 5px solid hsla(360, 100%, 100%, 1); */
@@ -150,7 +152,10 @@ h2 {
     bottom: 10%;
     border: 5px solid hsla(180, 2%, 45%, 1);
 }
-
+.content-slide1 {
+    padding-right: 5rem;
+    text-align: right;
+}
 /*      Slide 2     */
 .slide2 {
     padding-top: 8rem;
@@ -194,6 +199,100 @@ h2 {
         margin-left: -2.5rem;
     }
 }
+
+/*      Slide 3     */
+
+.image-slide3 {
+    height: 80%; 
+    display: flex;
+    align-items: center;
+}
+.slide3 .row {
+    height: 100%;
+}
+.slide-img3 {
+    position: relative;
+    /* border: 5px solid hsla(360, 100%, 100%, 1); */
+    z-index: 2;
+}
+.slide-img3:before {
+    content: " ";
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    left: 10%;
+    right: -20%;
+    bottom: -20%;
+    border: 5px solid hsla(118, 83%, 16%, 1);
+}
+.slide-img3:after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: -20%;
+    left: -20%;
+    right: 10%;
+    bottom: 10%;
+    border: 5px solid hsla(180, 2%, 45%, 1);
+}
+.content-slide3 {
+    padding-right: 5rem;
+    text-align: right;
+}
+
+/*      Slide 4     */
+.slide4 {
+    padding-top: 4rem;
+    text-align: center
+}
+.slide4 h2 {
+    margin-bottom: 4rem;
+}
+
+
+.slide-img4 {
+    position: relative;
+    /* border: 5px solid hsla(360, 100%, 100%, 1); */
+    z-index: 2;
+    margin: 0 1rem;
+}
+.slide-img4:before {
+    content: " ";
+    position: absolute;
+    z-index: 3;
+    top: 5%;
+    left: 15%;
+    right: 0%;
+    bottom: -10%;
+    border: 5px solid hsla(118, 83%, 16%, 1);
+    margin: 0 1rem;
+}
+.slide-img4:after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: -10%;
+    left: 0%;
+    right: 15%;
+    bottom: 5%;
+    border: 5px solid hsla(180, 2%, 45%, 1);
+    margin: 0 1rem;
+}
+.box-content {  
+    padding: 1rem 0.5rem 0 0.5rem;
+}
+.box-content .col-3 p {
+    margin-left: 0rem;
+    text-align: left;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .box-content .col-3 {
+        margin-left: -2.5rem;
+    }
+}
+
 /*      Carousel Controls       */
 
 .carousel-control-prev, .carousel-control-next {

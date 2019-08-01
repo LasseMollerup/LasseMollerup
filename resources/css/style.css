@@ -180,14 +180,6 @@ h2 {
     padding-left: 6rem;
 }
 
-
-/* 
-@media only screen and (min-width: 1024px) {
-    .box-content .col-4 {
-        margin-left: -2.5rem;
-    }
-} */
-
 /*      Carousel Controls       */
 
 .carousel-control-prev, .carousel-control-next {
@@ -195,15 +187,12 @@ h2 {
 }
 
 /*      About Me        */
-/* 
+
 .about h1 {
     padding-bottom: 2rem;
     color: hsla(360, 100%, 100%, 1);
     font-weight: bold;
-    text-shadow: -1px -1px 0 hsla(0, 0%, 0%, 1),
-    1px -1px 0 hsla(0, 0%, 0%, 1), 
-    -1px 1px 0 hsla(0, 0%, 0%, 1), 
-    1px 1px 0 hsla(0, 0%, 0%, 1);
+
 }
 
 #jump, #about-img {
@@ -216,7 +205,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 0.4rem solid hsla(360, 100%, 100%, 1);
+    /* border: 0.4rem solid hsla(360, 100%, 100%, 1); */
 }
 #about-img {
     background-image: url("../images/views.JPG")
@@ -232,25 +221,32 @@ h2 {
     1px 1px 0 hsla(0, 0%, 0%, 1);
 
 }
-.jumping-h2 {
-    padding-left: 1rem;
-}
-.about p {
-    padding: auto 3rem auto 4rem;
-}
+
 .about-content, .jumping {
-    background-color: hsla(171, 83%, 21%, 0.3);
+    /* background-color: hsla(171, 83%, 21%, 0.3); */
     padding: 0;
+}
+.about-content p, .jumping p {
+    margin: auto 1rem auto 1rem;
+}
+.about-content h2, .jumping-h2 {
+    color: hsla(118, 83%, 16%, 1);
+    padding-left: 1rem;
+    margin-top: 2rem;
 }
 
 /*      Passions Section      */
-/* .passion {
+
+
+.passion {
     margin: 2rem auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border-top: 2px solid hsla(171, 83%, 21%, 1);
     
+}
 
+.passion h2 {
+    color: hsla(118, 83%, 16%, 1);
 }
 .pas-img {
     max-height: 27rem;
@@ -269,12 +265,12 @@ h2 {
 
 /*      Testimonials Section      */
 
-/* .testimonials {
+.testimonials {
     margin: 2rem auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border-top: 2px solid hsla(171, 83%, 21%, 1);
-    border-bottom: 2px solid hsla(44, 23%, 16%, 1);
+    /* border-top: 2px solid hsla(171, 83%, 21%, 1);
+    border-bottom: 2px solid hsla(44, 23%, 16%, 1); */
 
 }
 .testimonials .row {
@@ -312,11 +308,12 @@ h2 {
 }
 
 
- */
+
 
 
 /*      Experience Page     */
-/* .experience {
+
+.experience {
     margin-top: 7rem;
     padding: 2rem 0;
     border-top: 2px solid hsla(171, 83%, 21%, 1);
@@ -325,4 +322,41 @@ h2 {
 .ref {
     margin: 1rem 0;
     font-size: 0.8rem;
-}  */
+} 
+
+
+/*      My Skills       */
+
+.skills {
+    margin: 3rem auto;
+}
+.progress {
+    margin-top: 0.5rem;
+    height: 3rem;
+}
+
+.progress-box, .progress-section {
+    margin-top: 3rem;
+}
+
+.progress-section img {
+    padding: 0;
+    margin: 0;
+}
+
+.progress-bar {
+    text-align: left;
+    padding-left: 4rem;
+}
+.progress-bar span {
+    font-size: 1.5rem;
+}
+
+/*      Potefolio Section*/
+
+.potefolio { 
+    margin-top: 10rem;
+}
+.project {
+    margin-top: 3rem;
+}

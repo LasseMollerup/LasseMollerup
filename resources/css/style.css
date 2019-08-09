@@ -1,11 +1,9 @@
 /*      Universal styles        */
 .colorpalette {
-    color: hsla(172, 45%, 78%, 1);
-    color: hsla(171, 19%, 59%, 1);
-    color: hsla(172, 13%, 34%, 1);
-    color: hsla(118, 33%, 84%, 1);
-    color: hsla(171, 83%, 21%, 1);
-    color: hsla(118, 83%, 16%, 1);
+    color: rgba(128, 26, 22, 1);
+    color: rgba(9, 30, 17, 0.949);
+    color: rgba(219, 211, 216, 1);
+    background-color: rgba(74, 77, 78, 0.95);
 }
 
 html {
@@ -18,7 +16,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    color: hsla(171, 83%, 21%, 1);
+    color: rgba(9, 30, 17, 0.949);
     font-weight: 500;
 }
 h1 {
@@ -35,9 +33,9 @@ h2 {
     /* border: 0.4rem solid hsla(360, 100%, 100%, 1); */
 }
 .btn {
-    background-color: hsla(118, 33%, 84%, 1);
-    color: hsla(171, 83%, 21%, 1);
-    border: hsla(171, 83%, 21%, 1);
+    background-color: rgba(219, 211, 216, 1);
+    color: rgba(9, 30, 17, 0.949);
+    border: rgba(9, 30, 17, 0.949);
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -46,8 +44,8 @@ h2 {
     top: 0.2rem;
 }
 .btn:hover {
-    background-color: hsla(208, 18%, 84%, 1);
-    color: hsla(44, 23%, 16%, 1);
+    background-color: rgba(219, 211, 216, 1);
+    color: rgba(9, 30, 17, 0.949);
 }
 /*      Navigation Bar      */
 .nav {
@@ -65,12 +63,12 @@ h2 {
     color: hsla(360, 100%, 100%, 1);
 }
 #active {
-    color: hsla(44, 23%, 16%, 1);
+    color: rgba(128, 26, 22, 1);
     background-color: inherit;
 }
 .nav li a:hover, #active:hover  {
-    background-color: hsla(180, 2%, 45%, 1);
-    color: hsla(44, 23%, 16%, 1);
+    background-color: rgba(74, 77, 78, 0.95);
+    color: rgba(128, 26, 22, 1);
     border-radius: 5rem;
 }
 
@@ -90,13 +88,13 @@ h2 {
 }
 
 #carouselExampleIndicators h2 {
-    color: hsla(118, 83%, 16%, 1);
+    color: rgba(128, 26, 22, 1);
     font-weight: 700;
 }
 .carousel-inner {
-    background-color: hsla(171, 83%, 21%, 1);
     height: 100%;
 }
+
 .carousel-item {
     height: 100%;
 }
@@ -116,7 +114,14 @@ h2 {
 .frame2 img {
     opacity: 0;
 }
+.carousel-item p {
+    color: rgba(219, 211, 216, 1);
+}
 /*      Slide 1     */
+
+.slide1 {
+    background-color: rgba(9, 30, 17, 0.949);
+}
 
 .image-slide1 {
     height: 80%; 
@@ -134,6 +139,7 @@ h2 {
 /*      Slide 2     */
 .slide2 {
     padding-top: 8rem;
+    background-color: rgba(74, 77, 78, 0.95);
 }
 
 
@@ -149,6 +155,9 @@ h2 {
 }
 
 /*      Slide 3     */
+.slide3 {
+    background-color: rgba(9, 30, 17, 0.949);
+}
 
 .image-slide3 {
     height: 80%; 
@@ -166,10 +175,12 @@ h2 {
 /*      Slide 4     */
 .slide4 {
     padding-top: 4rem;
-    text-align: center
+    text-align: center;
+    background-color: rgba(74, 77, 78, 0.95);
 }
 .slide4 h2 {
     margin-bottom: 2rem;
+    color: rgba(128, 26, 22, 1);
 }
 
 .box4-content {  
@@ -190,7 +201,7 @@ h2 {
 
 .about h1 {
     padding-bottom: 2rem;
-    color: hsla(360, 100%, 100%, 1);
+    color: rgba(74, 77, 78, 0.95);
     font-weight: bold;
 
 }
@@ -230,7 +241,7 @@ h2 {
     margin: auto 1rem auto 1rem;
 }
 .about-content h2, .jumping-h2 {
-    color: hsla(118, 83%, 16%, 1);
+    color: rgba(9, 30, 17, 0.949);
     padding-left: 1rem;
     margin-top: 2rem;
 }
@@ -246,7 +257,7 @@ h2 {
 }
 
 .passion h2 {
-    color: hsla(118, 83%, 16%, 1);
+    color: rgba(9, 30, 17, 0.949);
 }
 .pas-img {
     max-height: 27rem;
@@ -286,7 +297,7 @@ h2 {
 }
 
 .box-img {
-    background-color: hsla(171, 83%, 21%, 1);
+    background-color: rgba(9, 30, 17, 0.949);
     display: flex;
     flex-direction: column;
     border-radius: 5rem 5rem 0 0;
@@ -316,8 +327,8 @@ h2 {
 .experience {
     margin-top: 7rem;
     padding: 2rem 0;
-    border-top: 2px solid hsla(171, 83%, 21%, 1);
-    border-bottom: 2px solid hsla(171, 83%, 21%, 1); 
+    border-top: 2px solid rgba(9, 30, 17, 0.949);
+    border-bottom: 2px solid rgba(9, 30, 17, 0.949); 
 }
 .ref {
     margin: 1rem 0;
@@ -359,4 +370,8 @@ h2 {
 }
 .project {
     margin-top: 3rem;
+}
+
+.project p:last-child {
+    margin-top: 4rem;
 }

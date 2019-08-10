@@ -22,22 +22,33 @@
 <body>
 <!--        Header     -->
     <header>
-        <div class="navigation container-fluid">
-            <ul class="nav fixed-top">
-                <li class="nav-item">
-                    <a id="active" class="nav-link" href="./main.html">About me</a>
-                </li>
-                <li class="nav-item2">
-                    <a class="nav-link" href="#">My Passions</a>
-                </li>
-                <li class="nav-item2">
-                    <a class="nav-link" href="#">My Experience</a>
-                </li>
-                <li class="nav-item2">
-                    <a class="nav-link" href="#">My Portfolio</a>
-                </li>
-                </ul>
-        </div>
+            <div class="pos-f-t fixed-top">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                      <div class="p-4">
+                        <ul class="navbar-nav">
+                           <li>
+                               <a id="active" class="nav-link" href="./main.html">About me</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">My Passions</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">My Experience</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">My Portfolio</a>
+                            </li>
+                        </ul>   
+                      </div>
+                    </div>
+                    <nav class="navbar">
+                      <button id="border-navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span style="font-size: 2rem;">
+                                <i class="fas fa-bars"></i>
+                            </span>
+                      </button>
+                    </nav>
+                  </div>
     </header>
 <!--    Bootstrap Carousel      -->
 
@@ -59,10 +70,11 @@
                 </div>
                 <div class="col-5 content-slide1">
                     <h2>QUICK FACTS</h2>
-                    <p>From the splendid year of 1985 <br>
-                     Copenhagener turned Traveler <br>
-                     Currently travelling and living in Mexico <br>
-                     Barcelona is home from fall 2019</p>
+                    <p>100% Danish Viking turned traveller</p>
+                    <p>Born the year Windows 1.0 was released (1985 it was)</p>
+                    <p>Mexico is home until fall 2019, then it’s Barcelona</p>
+                    <p>TV-series nerd, football geek and handyman</p>
+                    <p>HTML, CSS, JavaScript are my newest friends</p>
                 </div>
             </div>
           </div>
@@ -176,40 +188,148 @@
     <h1>About Me</h1>
     <div class="row justify-content-around">
         <div class="about-content col-sm-5">
-            <div id="about-img">
+            <!-- <div id="about-img">
                 <h2>Lasse Mollerup</h2>
-            </div>
-            <h2>Quick Facts</h2>
-            <p>Front-End Developer from Copenhagen Denmark. 
-                I 34 years old and currently living i Mexico with my wife Christina  and our son Julian.
+            </div> -->
+            <h2 class="jumping-h2">Completely Career Change</h2>
+            <h4>From white color to Web Developer</h4>
+            <p>About a year ago my wife and I decided that life as we knew it needed a little change.</p>
+            <br> 
+            </p>Or rather a big change.</p> 
+            <br>
+            <p>17 years in the hotel industry in a white pressed shirt and tie, was about to see the end (or at least be paused), when we decided to let it all go and buy one-way tickets to Mexico City.</p>
+            <br>
+            <p>The departure date was January 7th 2019. What was the plan? None, except for challenging the norm of constantly pursuing the next raise, the next promotion, the next whatever until retirement, with no exciting stories to tell my son.</p> 
+            <br>
+            <p>After catching the perfect waves on the pacific coast of Mexico, eating daily ceviches and swimming in a volcano lake in Guatemala, I embarked on an online coding course to gain a new skill set.</p>
+            <br>
+            <p>What you see here on the site is the result so far. I’m confident with HTML, CSS and JavaScript and ready to jump onboard a project to further develop my skills and help building your site.</p>
+            <br>
+            <p>In fall 2019 my family and I will settle down in sunny Barcelona after 8 months of travelling in Mexico and Guatemala. I’m both looking into remote jobs and heading into an office in Barcelona if that’s the deal.
             </p>
         </div>
         <div class="jumping col-sm-5">          
             <div id="jump">
                 <h2>Jumping into the unknown</h2>
             </div>
-            <h2 class="jumping-h2">Completely Career Change</h2>
-            <h4>From white color to Web Developer</h4>
-            <p>In december 2018 my wife and I both quit our safe and good full time jobs in Copenhagen Denmark</p>
-            <p>I instead we took Julian with us and bought a one-way ticket to Mexico City. We had made no plans or inteniary, we just went on a adventure. 
-                Here 7 exiting and experience full months later we are now based in Playa Del Carmen in the south of Mexico. 
-                We have all grown a lot, both as individuals and as a family as a whole.
-                Julian, who have now turned 2 yars old, has been gooing to Mexican daycare in both Puerto escondido and as well here in Playa del Carmen. 
-                He is now speaking more spanish words than his "native" Danish. 
-            </p>
+            <h2>QUICK FACTS</h2>
+                <p>100% Danish Viking turned traveller</p>
+                <p>Born the year Windows 1.0 was released (1985 it was)</p>
+                <p>Mexico is home until fall 2019, then it’s Barcelona</p>
+                <p>TV-series nerd, football geek and handyman</p>
+                <p>HTML, CSS, JavaScript are my newest friends</p>
         </div>
     </div>
 </section>
 
-<!--    What I bring to the table     -->
+<!--        My Skills       -->
+<section class="skills container">
+        <h2>My Skills</h2>
+    <div class="row">
+        <div class="col-12 col-md-6 progress-section">
+            <img class="img-fluid" src="./resources/images/certificate.jpg" alt="">
+        </div>
+        <div class="col-12 col-md-6 progress-box">
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <span>HTML</span>
+                </div>
+            </div>
+            <p>My HTML skills dsf sdf </p>
+            <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 98%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <span>CSS</span>
+                </div>
+            </div>
+            <p>My HTML skills dsf sdf </p>
+            <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <span>Bootstrap 4</span>
+                </div>
+            </div>
+            <p>My HTML skills dsf sdf </p>
+            <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <p>My HTML skills dsf sdf </p>
+            <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <span>JQuery</span>
+                </div>
+            </div>
+            <p>My HTML skills dsf sdf </p>
+        </div>
+    </div>
+    </section>
+    
+    <!--        Potefolio Section       -->
+    
+    <section class="container potefolio">
+        <div class="row project">
+            <div class="col-12 col-md-6">
+                <a href="https://lassemollerup.github.io/COLMARACADEMY/" target="_blank">
+                    <img class="img-fluid" src="./resources/images/ColmarProject.png" alt="">
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <h3>Colmar Project</h3>
+               <p>The objective of the CodeCademy project was to build and style the landingpage from scratch with html and css. The focus should be on using css flexbox. Furthermore I was instructed to implement Fontawesome and Favicons.</p>
+               <p>I have written all the code. At point in the course I had not been introduced to bootstrap and I therefore had to show how I could make the page responsive with just flexbox.</p>
+               <p>To see the full landing page press the picture to the left or press the following buttom</p> 
+                <a role="button" href="https://lassemollerup.github.io/COLMARACADEMY/" target="_blank" class="btn btn-primary btn-sm">See Project</a>
+            </div>
+        </div>
+        <div class="row project">
+            <div class="col-12 col-md-6">
+                <a href="https://lassemollerup.github.io/Jumpstart/" target="_blank">
+                    <img class="img-fluid" src="./resources/images/Jumpstart.Project.png" alt="">
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <h3>Jumpstart Project</h3>
+                <p>The objective of this CodeCademy project to showcase my knowledge of the use of bootstrap and pseudo-classes.</p>
+                <p>Furthermore I needed to showcase a bit of JavaScript control with the Slick Carousel and the users Scroll position/history.</p>
+                <p>To see the full landing page press the picture to the left or press the following buttom</p>
+                    <a role="button" href="https://lassemollerup.github.io/Jumpstart/" target="_blank" class="btn btn-primary btn-sm">See Project</a>
+            </div>
+        </div>
+        <!-- <div class="row project">
+            <div class="col-12 col-md-6">
+                <img class="img-fluid" src="#" alt="">
+            </div>
+            <div class="col-12 col-md-6">
+                    <h3>Colmar Project</h3>
+                    <p>This Course was dsfgsd sfsh sf sd srg sg sgsdg sgsghs sgsgg
+                    To see the full landing page press the picture to the left or press the following buttom 
+                    <br>
+                    <a role="button" href="https://lassemollerup.github.io/Jumpstart/" target="_blank" class="btn btn-primary btn-sm">See Project</a>
+                </p>
+            </div>
+        </div> -->
+</section>
 
-<h1>What I bring to the table</h1>
+<!--    What I bring to the table     -->
+<section class="container">
+    <div>
+        <h1>What I can bring to the table in your business</h1>
+            <p>HTML, CSS, JavaScript and JQuery. Many candidates come with those qualifications, but only a few bring a year-long career within sales and customer relations as a bonus.</p>
+            <p>My years wearing a pressed shirt and a perfectly tied tie, have made me a brilliant salesperson and people-knower.</p>
+            <p>I know how to communicate with even the most introvert clients who can’t explain what they are looking for.</p>
+            <p>And I have a genuine interest in user experience and making systems easy to use for the customer, rather than fancy.</p>
+            <p>Remember that I was the person who tackled the guests up front when systems weren’t functioning or the guests simply didn’t understand how to use our website.</p>
+        
+    </div>
+</section>
+
 
 
 
 <!--    My Passions     -->
 <section class="passion container">
-        <h2>What makes me ...</h2>
+        <h2>What makes me tick</h2>
+            <p>When I’m not in front of my laptop typing HTML codes, you’ll most likely find me doing one of these things:</p>
     <div class="row text-center">
         <div class="col-12 col-md-4">
                 <img class="pas-img img-fluid" src="./resources/images/workingOnChair.jpg" alt="">
@@ -275,130 +395,6 @@
     </div>
     <p>Too see al the details of my previous jobs, head over to my LinkedIn profile <div class="btn">LinkedIn</div></p>
 </div>
-
-
-<section class="skills container">
-    <h2>My Skills</h2>
-<div class="row">
-    <div class="col-12 col-md-6 offset-md-6 progress-section">
-        <img class="img-fluid" src="./resources/images/bws-certificate-padding.png" alt="">
-    </div>
-    <div class="col-12 col-md-6 offset-md-6 progress-box">
-        <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" style="width: 99%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <span>HTML</span>
-            </div>
-        </div>
-        <p>My HTML skills dsf sdf </p>
-        <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" style="width: 92%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                <span>CSS</span>
-            </div>
-        </div>
-        <p>My HTML skills dsf sdf </p>
-        <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <span>Bootstrap 4</span>
-            </div>
-        </div>
-        <p>My HTML skills dsf sdf </p>
-        <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                <span>JavaScript/span>
-            </div>
-        </div>
-        <p>My HTML skills dsf sdf </p>
-        <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                <span>JQuery</span>
-            </div>
-        </div>
-        <p>My HTML skills dsf sdf </p>
-    </div>
-</div>
-</section>
-
-<!--        Potefolio Section       -->
-
-<section class="container potefolio">
-    <div class="row project">
-        <div class="col-12 col-md-6">
-            <a href="https://lassemollerup.github.io/COLMARACADEMY/" target="_blank">
-                <img class="img-fluid" src="./resources/images/ColmarProject.png" alt="">
-            </a>
-        </div>
-        <div class="col-12 col-md-6">
-            <h3>Colmar Project</h3>
-           <p>The objective of the CodeCademy project was to build and style the landingpage from scratch with html and css. The focus should be on using css flexbox. Furthermore I was instructed to implement Fontawesome and Favicons.</p>
-           <p>I have written all the code. At point in the course I had not been introduced to bootstrap and I therefore had to show how I could make the page responsive with just flexbox.</p>
-           <p>To see the full landing page press the picture to the left or press the following buttom</p> 
-            <a role="button" href="https://lassemollerup.github.io/COLMARACADEMY/" target="_blank" class="btn btn-primary btn-sm">See Project</a>
-        </div>
-    </div>
-    <div class="row project">
-        <div class="col-12 col-md-6">
-            <a href="https://lassemollerup.github.io/Jumpstart/" target="_blank">
-                <img class="img-fluid" src="./resources/images/Jumpstart.Project.png" alt="">
-            </a>
-        </div>
-        <div class="col-12 col-md-6">
-            <h3>Jumpstart Project</h3>
-            <p>The objective of this CodeCademy project to showcase my knowledge of the use of bootstrap and pseudo-classes.</p>
-            <p>Furthermore I needed to showcase a bit of JavaScript control with the Slick Carousel and the users Scroll position/history.</p>
-            <p>To see the full landing page press the picture to the left or press the following buttom</p>
-                <a role="button" href="https://lassemollerup.github.io/Jumpstart/" target="_blank" class="btn btn-primary btn-sm">See Project</a>
-        </div>
-    </div>
-    <div class="row project">
-        <div class="col-12 col-md-6">
-            <img class="img-fluid" src="#" alt="">
-        </div>
-        <div class="col-12 col-md-6">
-                <h3>Colmar Project</h3>
-                <p>This Course was dsfgsd sfsh sf sd srg sg sgsdg sgsghs sgsgg
-                To see the full landing page press the picture to the left or press the following buttom 
-                <br>
-                <a role="button" href="https://lassemollerup.github.io/Jumpstart/" target="_blank" class="btn btn-primary btn-sm">See Project</a>
-            </p>
-        </div>
-    </div>
-</section>
-
-<section class="container background">
-        <div class="row background">
-                <div class="col-12 col-md-6 offset-md-6">
-                    <h2>Background</h2>
-                    <p>If you want to know more about my background and where I have worked? <a class="btn btn-primary btn-lg" href="./experience.html">Click here.</a></p>
-            
-                    <p>
-                    I have had the pleasure of working with Lasse at the Munkebjerg Group, where Lasse was employed as an account manager in my team.
-                    In the above position, Lasse has been responsible for serving customers in Zealand and Greater Copenhagen within the private and public segment. In addition, he has been responsible for the budget and should develop the company's revenue, earnings and market position in his district.
-                    Lasse has during the period of employment partly worked independently, and partly to cooperate with his superiors and the conference departments in the hotels to our full satisfaction.
-                    Lasse is an incredibly loyal employee and has done his job to our full satisfaction, and we give him our best recommendations for a possible. future employer.
-                    Lasse is an incredibly comfortable, well-liked and trustworthy person who both manages to catch customers and colleagues and he never gives up before the order is done. 
-                    I can give Lasse my best recommendations. See less
-                    </p>
-            
-                    <p>
-                    I have had the pleasure of working with Lasse at the Munkebjerg Group, where Lasse was employed as an account manager in my team.
-                    In the above position, Lasse has been responsible for serving customers in Zealand and Greater Copenhagen within the private and public segment. In addition, he has been responsible for the budget and should develop the company's revenue, earnings and market position in his district.
-                    Lasse has during the period of employment partly worked independently, and partly to cooperate with his superiors and the conference departments in the hotels to our full satisfaction.
-                    Lasse is an incredibly loyal employee and has done his job to our full satisfaction, and we give him our best recommendations for a possible. future employer.
-                    Lasse is an incredibly comfortable, well-liked and trustworthy person who both manages to catch customers and colleagues and he never gives up before the order is done. 
-                    I can give Lasse my best recommendations. See less
-                    </p>
-            
-                    <p>
-                    I have had the pleasure of working with Lasse at the Munkebjerg Group, where Lasse was employed as an account manager in my team.
-                    In the above position, Lasse has been responsible for serving customers in Zealand and Greater Copenhagen within the private and public segment. In addition, he has been responsible for the budget and should develop the company's revenue, earnings and market position in his district.
-                    Lasse has during the period of employment partly worked independently, and partly to cooperate with his superiors and the conference departments in the hotels to our full satisfaction.
-                    Lasse is an incredibly loyal employee and has done his job to our full satisfaction, and we give him our best recommendations for a possible. future employer.
-                    Lasse is an incredibly comfortable, well-liked and trustworthy person who both manages to catch customers and colleagues and he never gives up before the order is done. 
-                    I can give Lasse my best recommendations. See less
-                    </p>
-                </div>
-            </div>
-</section>
 
 
 

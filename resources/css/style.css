@@ -22,15 +22,15 @@ body {
 h1 {
     text-align: center;
     font-size: 5.1rem;
-    color: hsla(360, 100%, 100%, 1);
+    color: rgba(9, 30, 17, 0.949);
 }
 h2 {
-    color: hsla(360, 100%, 100%, 1);
+    color: rgba(9, 30, 17, 0.949);
 }
 .img-fluid {
     max-width: 100%;
     height: auto;
-    /* border: 0.4rem solid hsla(360, 100%, 100%, 1); */
+    
 }
 .btn {
     background-color: rgba(219, 211, 216, 1);
@@ -48,35 +48,29 @@ h2 {
     color: rgba(9, 30, 17, 0.949);
 }
 /*      Navigation Bar      */
-.nav {
-    padding-left: 2rem;
-    align-items: center;
-    height: 5rem;
-    /* background-color: hsla(171, 83%, 21%, 0.7); */
+.navbar-nav {
+    display: inline-flex;
+    flex-direction: row;
 }
-.nav-item2 {
-    display: none;
+.p-4 {
+    background-color: hsla(360, 100%, 100%, 0.1);
 }
-.nav li a {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: hsla(360, 100%, 100%, 1);
-}
-#active {
+.navbar-nav li a {
+    margin: auto 0.5rem;
     color: rgba(128, 26, 22, 1);
-    background-color: inherit;
-}
-.nav li a:hover, #active:hover  {
-    background-color: rgba(74, 77, 78, 0.95);
-    color: rgba(128, 26, 22, 1);
-    border-radius: 5rem;
+
 }
 
-@media only screen and (max-width: 767px) {
-    .nav {
-        text-align: center;
-    }
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+ 
+.fas, .fas-bars {
+    color: rgba(128, 26, 22, 1);
 }
+
 
 /*      Main html       */
 
@@ -246,6 +240,48 @@ h2 {
     margin-top: 2rem;
 }
 
+/*      My Skills       */
+
+.skills {
+    margin: 3rem auto;
+}
+.progress {
+    margin-top: 0.5rem;
+    height: 3rem;
+}
+
+.progress-box, .progress-section {
+    margin-top: 3rem;
+}
+
+.progress-section img {
+    padding: 0;
+    margin: 0;
+}
+
+.progress-bar {
+    text-align: left;
+    padding-left: 4rem;
+}
+.progress-bar span {
+    font-size: 1.5rem;
+}
+
+/*      Potefolio Section*/
+
+.potefolio { 
+    margin-top: 10rem;
+}
+.project {
+    margin-top: 3rem;
+}
+
+.project p:last-child {
+    margin-top: 4rem;
+}
+
+/*      What I bring to the table       */
+
 /*      Passions Section      */
 
 
@@ -336,42 +372,3 @@ h2 {
 } 
 
 
-/*      My Skills       */
-
-.skills {
-    margin: 3rem auto;
-}
-.progress {
-    margin-top: 0.5rem;
-    height: 3rem;
-}
-
-.progress-box, .progress-section {
-    margin-top: 3rem;
-}
-
-.progress-section img {
-    padding: 0;
-    margin: 0;
-}
-
-.progress-bar {
-    text-align: left;
-    padding-left: 4rem;
-}
-.progress-bar span {
-    font-size: 1.5rem;
-}
-
-/*      Potefolio Section*/
-
-.potefolio { 
-    margin-top: 10rem;
-}
-.project {
-    margin-top: 3rem;
-}
-
-.project p:last-child {
-    margin-top: 4rem;
-}

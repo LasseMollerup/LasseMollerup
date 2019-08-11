@@ -53,18 +53,21 @@ h2 {
     flex-direction: row;
 }
 .p-4 {
-    background-color: hsla(360, 100%, 100%, 0.1);
+    background-color: rgb(117, 150, 130);
 }
 .navbar-nav li a {
     margin: auto 0.5rem;
     color: rgba(128, 26, 22, 1);
 
 }
-
+.navbar-toggler {
+    padding-left: 0;
+}
 
 .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
     box-shadow: none;
+   
   }
  
 .fas, .fas-bars {
@@ -212,36 +215,13 @@ h2 {
 
 }
 
-#jump, #about-img {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    width: 100%;
-    min-height: 25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 0.4rem solid hsla(360, 100%, 100%, 1); */
-}
-#about-img {
-    background-image: url("../images/views.JPG")
-}
 #jump {
-    background-image: url("../images/jump.jpg");
-}
-#jump h2, #about-img h2 {
-    color: hsla(360, 100%, 100%, 1);
-    text-shadow: -1px -1px 0 hsla(0, 0%, 0%, 1),
-    1px -1px 0 hsla(0, 0%, 0%, 1), 
-    -1px 1px 0 hsla(0, 0%, 0%, 1), 
-    1px 1px 0 hsla(0, 0%, 0%, 1);
-
+   margin-bottom: 1rem;
 }
 
 .about-content, .jumping {
-    /* background-color: hsla(171, 83%, 21%, 0.3); */
-    padding: 1rem;
+    padding: 0;
+    background-color: hsla(360, 100%, 100%, 0.75);
 }
 
 .about-content h2, .about-content h4, .jumping-h2 {

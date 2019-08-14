@@ -263,16 +263,22 @@ h2 {
 .progress-bar span {
     font-size: 1.5rem;
 }
-
+@media only screen and (max-width: 768px) {
+    .skill_section {
+        background-image: url("../images/afcBackground300x1200.png");
+        }
+    .skills {
+        background-color: hsla(360, 100%, 100%, 0.75);
+    }
+}
 /*      Potefolio Section*/
 
 .section_potefolio {
     background-image: url("../images/Leafs/backgroundHalfLeaf1200x1500.png");
     background-repeat: no-repeat;
     background-position-x: left;
-    background-size: contain;  
+    background-size: cover;  
     padding-top: 3rem;
-    padding-bottom: 15rem;
 }
 
 .potefolio { 
@@ -282,7 +288,7 @@ h2 {
     margin-top: 3rem;
     border: 0.5rem solid rgba(128, 26, 22, 1);
     padding: 1rem 0rem;
-    background-color: hsla(360, 100%, 100%, 0.7);
+    background-color: hsla(360, 100%, 100%, 0.8);
 }
 
 .border-img {

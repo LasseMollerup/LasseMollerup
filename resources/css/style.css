@@ -4,6 +4,7 @@
     color: rgba(9, 30, 17, 0.949);
     color: rgba(219, 211, 216, 1);
     color: rgba(74, 77, 78, 0.95);
+    color: rgba(117, 150, 130, 1);
 }
 
 html {
@@ -216,7 +217,7 @@ h2 {
 }
 
 #jump {
-   margin-bottom: 1rem;
+   margin-bottom: 3rem;
 }
 
 .about-content, .jumping {
@@ -266,10 +267,12 @@ h2 {
 /*      Potefolio Section*/
 
 .section_potefolio {
-    background-image: url("../images/palmtreeleaf.jpg");
+    background-image: url("../images/Leafs/backgroundHalfLeaf1200x1500.png");
     background-repeat: no-repeat;
-    background-position-x: 50%;
+    background-position-x: left;
     background-size: contain;  
+    padding-top: 3rem;
+    padding-bottom: 15rem;
 }
 
 .potefolio { 
@@ -279,7 +282,9 @@ h2 {
     margin-top: 3rem;
     border: 0.5rem solid rgba(128, 26, 22, 1);
     padding: 1rem 0rem;
+    background-color: hsla(360, 100%, 100%, 0.7);
 }
+
 .border-img {
     border: 0.5rem solid rgba(9, 30, 17, 0.949);
     padding: 0.5rem;
@@ -291,13 +296,16 @@ h2 {
 
 /*      What I bring to the table       */
 
+.whatIBring {
+    margin: 3rem auto;
+}
+
 /*      Passions Section      */
 
 
 .passion {
     margin: 2rem auto;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+   padding: 2rem 0rem;
     
 }
 

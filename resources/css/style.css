@@ -131,6 +131,9 @@ h2 {
     text-align: right;
 }
 
+/*  The styling by the bootstrap breakpoints did not fit.
+    So I have styled it individual with @media. */
+
 @media only screen and (min-width: 410px) and (max-width: 440px) {
     .content-slide1 {
         padding-right: 8rem;
@@ -149,7 +152,6 @@ h2 {
     }
 
 }
-
 @media only screen and (max-width: 767px) {
     .image-slide1 {
         height: 40%; 
@@ -170,19 +172,32 @@ h2 {
 .slide2 {
     padding-top: 8rem;
     background-color: rgba(74, 77, 78, 0.95);
+    text-align: center;
+}
+.slide2 h2 {
+    margin-bottom: 4rem;
 }
 
-
-.box2-content {
-    padding-top: 4rem;
-}
-
-
-@media only screen and (min-width: 1024px) {
-    .box-content .col-3 {
-        margin-left: -2.5rem;
+@media only screen and (max-width: 767px) {
+    .slide2 {
+        padding-top: 1rem;
+    }
+    .slide2 h2 {
+        margin-bottom: 1rem;
+    }
+}  
+@media only screen and (max-width: 580px) {
+    .slide2 {
+        padding-top: 2rem;
+    }
+    .slide2 h2 {
+        margin-bottom: 1rem;
+    }
+    .slide-img2, .slide-img2 img {
+        height: 10rem;
     }
 }
+
 
 /*      Slide 3     */
 .slide3 {

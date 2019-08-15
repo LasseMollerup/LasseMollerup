@@ -116,27 +116,56 @@ h2 {
     color: rgba(219, 211, 216, 1);
 }
 /*      Slide 1     */
-
 .slide1 {
     background-color: rgba(9, 30, 17, 0.949);
 }
-
-.image-slide1 {
-    height: 80%; 
-    display: flex;
-    align-items: center;
-}
 .slide1 .row {
     height: 100%;
-    /* background-image: url("/resources/images/palmtreeleaf.jpg");
-    background-position: center;
-    z-index: 10; */
 }
-
+.image-slide1 {
+    height: 100%;
+    margin-top: 8%;
+}
 .content-slide1 {
     padding-right: 5rem;
     text-align: right;
 }
+
+@media only screen and (min-width: 410px) and (max-width: 440px) {
+    .content-slide1 {
+        padding-right: 8rem;
+    }
+
+}
+@media only screen and (min-width: 440px) and (max-width: 510px) {
+    .content-slide1 {
+        padding-right: 10rem;
+    }
+
+}
+@media only screen and (min-width: 511px) and (max-width: 575px) {
+    .content-slide1 {
+        padding-right: 12rem;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .image-slide1 {
+        height: 40%; 
+    }
+    .slide-img1 img {
+        height: 100%; 
+    }
+    .content-slide1 h2 {
+        font-size: 1.5rem;
+    }
+    .content-slide1 {
+        margin-bottom: 2rem;
+        font-size: 0.8rem;
+    }
+}
+
 /*      Slide 2     */
 .slide2 {
     padding-top: 8rem;

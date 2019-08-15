@@ -158,20 +158,23 @@ h2 {
 /*      Slide 3     */
 .slide3 {
     background-color: rgba(9, 30, 17, 0.949);
+    padding-top: 4rem;
+    text-align: center;
 }
 
-.image-slide3 {
-    height: 80%; 
-    display: flex;
-    align-items: center;
+.slide3 h3 {
+    margin-bottom: 2rem;
+    color: rgba(128, 26, 22, 1);
 }
-.slide3 .row {
-    height: 100%;
+
+.box3-content {  
+    margin: 1rem 0 0 0;
+    text-align: left;
 }
-.content-slide3 {
-    padding-right: 5rem;
-    text-align: right;
+.box3-content .col-4 {
+    padding-left: 6rem;
 }
+
 
 /*      Slide 4     */
 .slide4 {
@@ -183,14 +186,16 @@ h2 {
     margin-bottom: 2rem;
     color: rgba(128, 26, 22, 1);
 }
-
+.slide4 .slide-img {
+    text-align: left;
+}
 .box4-content {  
     margin: 1rem 0 0 0;
     text-align: left;
 }
-.box4-content .col-4 {
+/* .box4-content .col-4 {
     padding-left: 6rem;
-}
+} */
 
 /*      Carousel Controls       */
 
@@ -304,6 +309,12 @@ h2 {
 
 .whatIBring {
     margin: 3rem auto;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background-image: url("../images/rickgrimesHalf.jpg");
+    background-repeat: no-repeat;
+    background-position-x: -50px; 
+    background-size: contain;
 }
 
 /*      Passions Section      */
@@ -379,19 +390,5 @@ h2 {
 
 
 
-
-
-/*      Experience Page     */
-
-.experience {
-    margin-top: 7rem;
-    padding: 2rem 0;
-    border-top: 2px solid rgba(9, 30, 17, 0.949);
-    border-bottom: 2px solid rgba(9, 30, 17, 0.949); 
-}
-.ref {
-    margin: 1rem 0;
-    font-size: 0.8rem;
-} 
 
 

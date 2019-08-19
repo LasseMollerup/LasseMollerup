@@ -64,7 +64,7 @@
         </ol>
         <div class="carousel-inner ">
         <!--        Slide 1        -->
-          <!-- <div class="carousel-item active slide1">
+          <div class="carousel-item active slide1">
             <div class="row align-items-center">
                 <div class="col-12 col-sm-6 image-slide1">
                     <div class="slide-img1">
@@ -80,9 +80,9 @@
                     <p>HTML, CSS, JavaScript are my newest friends</p>
                 </div>
             </div>
-          </div> -->
+          </div>
           <!--        Slide 2        -->
-          <!-- <div class="carousel-item slide2 active">
+          <div class="carousel-item slide2">
               <h2>My Skills</h2>    
             <div class="row justify-content-around">
                 <div class="col-12 col-sm-6 col-md-4 image-slide2">
@@ -100,65 +100,40 @@
                         <img class="img-fluid" src="./resources/images/test/screenPrintOfCode3DWithGreenBackgroundAnd.JS.Logo380x260.png" alt="">
                     </div>
                 </div>
-            </div> -->
-            <!-- <div class="row box2-content justify-content-around">
-                <div class="col-3">
-                    <h3>HTML</h3>
-                    <p>See more here</p>
-                </div>
-                <div class="col-3">
-                    <h3>CSS</h3>
-                    <p>See more here</p>
-                </div>
-                <div class="col-3">
-                    <h3>JavaScript</h3>
-                    <p>See more here</p>
-                </div>
             </div>
-          </div> -->
+          </div>
           <!--        Slide 3        -->
-          <div class="carousel-item slide3 active">
+          <div class="carousel-item slide3">
             <h2 id="slide3h2">What makes me tick</h2>
             <div class="row">
                 <div class="col-6 img-slide3">
-                        <img class="img-fluid" src="./resources/images/Macreme420x315.png" alt="">
+                    <img id="slideImgSmall" class="img-fluid" src="./resources/images/Macreme420x315.png" alt="">
+                    <img id="slideImgLarge" class="img-fluid d-block mx-auto" src="./resources/images/macreme16times9.jpg" alt="">
                 </div>
                 <div class="col-6 content-slide3">
                     <h3>Creating things</h3>
                     <p>Creating stuff with my hands or with a keybord or real tools</p>
                 </div>
                 <div class="col-6 img-slide3">
-                        <img class="img-fluid" src="./resources/images/Biking420x315.png" alt="">
+                    <img id="slideImgSmall" class="img-fluid" src="./resources/images/Biking420x315.png" alt="">
+                    <img id="slideImgLarge" class="img-fluid d-block mx-auto" src="./resources/images/biking16times9.jpg" alt="">
                 </div>
                 <div class="col-6 content-slide3">
                     <h3>Being Active</h3>
                     <p>Biking around town with my son or surfing the waves in the pacific ocean</p>
                 </div>
                 <div class="col-6 img-slide3">
-                        <img class="img-fluid" src="./resources/images/twd420x315.png" alt="">
+                    <img id="slideImgSmall" class="img-fluid" src="./resources/images/twd420x315.png" alt="">
+                    <img id="slideImgLarge" class="img-fluid d-block mx-auto" src="./resources/images/the_walking_dead16times9.jpg" alt="">
                 </div>
                 <div class="col-6 content-slide3">
                     <h3>Binge-watching</h3>
                     <p>Billions, TWD, Gotham - Can't stop once I start</p>
                 </div>
-            </div>
-            <!-- <div class="row box3-content justify-content-around">
-                <div class="col-4">
-                    <h3>Creating things</h3>
-                    <p>Creating stuff with my hands or with a keybord or real tools</p>
-                </div>
-                <div class="col-4">
-                    <h3>Being Active</h3>
-                    <p>Biking around town with my son or surfing the waves in the pacific ocean</p>
-                </div>
-                <div class="col-4">
-                    <h3>Binge-watching</h3>
-                    <p>Billions, TWD, Gotham - Can't stop once I start</p>
-                </div>
-            </div> -->
+            </div> 
           </div>
           <!--        Slide 4        -->
-          <!-- <div class="carousel-item slide4">
+          <div class="carousel-item slide4">
               <h2>WHAT HAS BEEN SAID ABOUT ME</h2>
             <div class="row justify-content-center">
                 <div class="col-4 offset-1 image-slide4">
@@ -186,7 +161,7 @@
                     </p>
                 </div>
             </div>
-          </div> -->
+          </div>
         </div>
         <!--        Carousel Controls       -->
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -335,40 +310,37 @@
 </section>
 
 <!--    What I bring to the table     -->
-<section class="container whatIBring">
-    <div class="row">
-        <div class="col-12 col-md-8 offset-md-4">
-        <h2>What I can bring to the table in your business</h2>
-            <p>HTML, CSS, JavaScript and JQuery. Many candidates come with those qualifications, but only a few bring a year-long career within sales and customer relations as a bonus.</p>
-            <p>My years wearing a pressed shirt and a perfectly tied tie, have made me a brilliant salesperson and people-knower.</p>
-            <p>I know how to communicate with even the most introvert clients who can’t explain what they are looking for.</p>
-            <p>And I have a genuine interest in user experience and making systems easy to use for the customer, rather than fancy.</p>
-            <p>Remember that I was the person who tackled the guests up front when systems weren’t functioning or the guests simply didn’t understand how to use our website.</p>
-        </div>
-    </div>
-
-
-<!--    My Passions     -->
-<section id="my_passions" class="passion container-fluid">
-    <div class="row">
-        <div class="col-12 col-md-8 offset-md-4">
-            <h2>What makes me tick</h2>
-            <p>When I’m not in front of my laptop typing HTML codes, you’ll most likely find me doing one of these things:</p>
-        </div>
+<section class="container-fluid whatIBring">
+    <div class="content-whatIBring">
         <div class="row">
-            <div class="col-12 col-md-8 offset-md-4">
-                    <img class="pas-img img-fluid" src="./resources/images/workingOnChair.jpg" alt="">
-                    <h3>Interior design & Crafts</h3>
-                    <p>I love working with my hands to restore or create things
-                        During my time in Mexico I spent a week working in a local woodshop in Merida, where i learned the technique to wove a cane chair</p>
+            <div class="col-12 col-md-6 offset-md-6">
+                <h2>What I can bring to the table in your business</h2>
+                <p>HTML, CSS, JavaScript and JQuery. Many candidates come with those qualifications, but only a few bring a year-long career within sales and customer relations as a bonus.</p>
+                <p>My years wearing a pressed shirt and a perfectly tied tie, have made me a brilliant salesperson and people-knower.</p>
+                <p>I know how to communicate with even the most introvert clients who can’t explain what they are looking for.</p>
+                <p>And I have a genuine interest in user experience and making systems easy to use for the customer, rather than fancy.</p>
+                <p>Remember that I was the person who tackled the guests up front when systems weren’t functioning or the guests simply didn’t understand how to use our website.</p>
             </div>
-            <div class="col-12 col-md-8 offset-md-4">      
-                <img class="pas-img img-fluid" src="./resources/images/paddlesurf.jpg" alt="">
+        </div>
+    <!--    My Passions     -->
+        <div class="row passion">
+            <div class="col-12 col-md-6 offset-md-6">
+                <h2>What makes me tick</h2>
+                <p>When I’m not in front of my laptop typing HTML codes, you’ll most likely find me doing one of these things:</p>
+            </div>
+            <div class="col-12 col-md-6 offset-md-6">
+                <img class="pas-img img-fluid d-block mx-auto" src="./resources/images/workingOnChair500x735.jpg" alt="">
+                <h3>Interior design & Crafts</h3>
+                <p>I love working with my hands to restore or create things
+                    During my time in Mexico I spent a week working in a local woodshop in Merida, where i learned the technique to wove a cane chair</p>
+            </div>
+            <div class="col-12 col-md-6 offset-md-6">      
+                <img class="pas-img img-fluid d-block mx-auto" src="./resources/images/paddlesurf500x735.jpg" alt="">
                 <h3>Being Active</h3>
                 <p>I like being active, whether it is hitting the gym a few times per week or learning to surf at the pacific ocean</p>
             </div>
-            <div class="col-12 col-md-8 offset-md-4"> 
-                    <img class="pas-img img-fluid" src="./resources/images/Billions.jpg" alt="">
+            <div class="col-12 col-md-6 offset-md-6"> 
+                    <img class="pas-img img-fluid d-block mx-auto" src="./resources/images/Billions500x735.jpg" alt="">
                     <h3>TV-Shows</h3>
                     <p>TWD, The Shield and everything to do with Batman</p>
             </div>
@@ -376,10 +348,8 @@
     </div>
 </section>
 
-</section>
-
    
-<div id="my_test" class="container testimonials">
+<section id="my_test" class="container testimonials">
         <h2>Testimonials</h2>   
     <div class="row justify-content-around">
         <div class="col-sm-12 col-md-4 box">
@@ -422,7 +392,7 @@
         </div>     
     </div>
     <p>Too see al the details of my previous jobs, head over to my LinkedIn profile <div class="btn">LinkedIn</div></p>
-</div>
+</section>
 
 
 

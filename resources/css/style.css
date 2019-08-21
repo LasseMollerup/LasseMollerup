@@ -80,8 +80,7 @@ h2 {
     height: 40rem;
     width: 100%;
     overflow: hidden;
-    background-color: hsla(190, 3%, 59%, 0.95)
-    /* color: hsla(360, 100%, 100%, 1); */
+    background-color: hsla(190, 3%, 59%, 0.95);
 }
 
 #carouselExampleIndicators h2 {
@@ -95,12 +94,12 @@ h2 {
 
 .carousel-item {
     width: 100%;
-    margin-right: 0;
+    height: 100%;
 }
+
 .carousel-item p {
     color: hsla(360, 100%, 100%, 1);
 }
-
 
 
 /*      Slide 1     */
@@ -151,31 +150,24 @@ h2 {
 
 /*      Slide 2     */
 .slide2 {
-    padding-top: 8rem;
-    background-color: hsla(195, 3%, 30%, 0.95);
-    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
 }
 .slide2 h2 {
-    margin-bottom: 4rem;
+    text-align: center;
 }
 
+.slide2 .row {
+    text-align: center;
+    height: 80%;
+}
+
+.image-slide2 {
+    padding-bottom: 1rem;
+}
 @media only screen and (max-width: 767px) {
-    .slide2 {
-        padding-top: 1rem;
-    }
-    .slide2 h2 {
-        margin-bottom: 1rem;
-    }
-}  
-@media only screen and (max-width: 580px) {
-    .slide2 {
-        padding-top: 2rem;
-    }
-    .slide2 h2 {
-        margin-bottom: 1rem;
-    }
-    .slide-img2, .slide-img2 img {
-        height: 10rem;
+    .image-slide2 img {
+        height: 35%;
     }
 }
 
@@ -185,7 +177,6 @@ h2 {
     display: none !important;
 }
 .slide3 {
-    background-color:  rgba(100, 17, 17, 0.85);
     padding-top: 2rem;
     text-align: center;
 }

@@ -219,15 +219,21 @@ h2 {
 }
 @media only screen and (min-width: 768px) {
     
-    .content-slide3 {
+    /* .content-slide3 {
         padding-left: 0;
         padding-right: 10rem;
-    }
+    } */
     #slideImgSmall {
         display: none!important;
     }
     #slideImgLarge {
         display: block!important;
+    }
+    .secondRow {
+        padding-left: 10rem;
+    }
+    .thirdRow {
+        padding-left: 20rem;
     }
 }
 
@@ -284,14 +290,23 @@ h2 {
     padding: 0;
     background-color: hsla(360, 100%, 100%, 0.75);
 }
-.jumping {
-    padding-left: 6rem;
-    background-color: hsla(360, 100%, 100%, 0.75);
-}
 
 .about-content h2, .about-content h4, .jumping-h2 {
     color: hsla(143, 54%, 8%, 0.949);
     margin-top: 2rem 1rem auto 1rem;
+}
+
+.jumping {
+    padding-left: 6rem;
+    background-color: hsla(360, 100%, 100%, 0.75);
+}
+.quickFacts {
+    line-height: 1.5rem;
+    padding: 1.5rem;
+    border: 2px solid hsla(195, 3%, 30%, 0.95);
+}
+.quickFacts h2 {
+    color: hsla(143, 54%, 8%, 0.949);
 }
 
 /*      My Skills       */

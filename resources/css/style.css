@@ -305,25 +305,26 @@ h2 {
 
 .about-content {
     padding: 0;
-    background-color: hsla(360, 100%, 100%, 0.75);
+    background-color: hsla(360, 100%, 100%, 0.8);
 }
 
 .about-content h2, .about-content h4, .jumping-h2 {
     color: hsla(143, 54%, 8%, 0.949);
-    margin-top: 2rem 1rem auto 1rem;
+    margin: 2rem 1rem auto 1rem;
 }
 
 .jumping {
     padding-left: 6rem;
-    background-color: hsla(360, 100%, 100%, 0.75);
+    background-color: hsla(360, 100%, 100%, 0.8);
 }
 .quickFacts {
-    line-height: 1.5rem;
-    padding: 1.5rem;
-    border: 2px solid hsla(195, 3%, 30%, 0.95);
+    line-height: 1.2rem;
+    padding: 1rem;
+    border: 3px solid hsla(190, 68%, 24%, 0.95);
 }
 .quickFacts h2 {
-    color: hsla(143, 54%, 8%, 0.949);
+    color: hsla(190, 68%, 24%, 0.95);
+    padding-bottom: 1rem;
 }
 
 /*      My Skills       */
@@ -364,16 +365,16 @@ h2 {
         background-image: url("../images/afcBackground300x1200.png");
         }
     .skills {
-        background-color: hsla(360, 100%, 100%, 0.75);
+        background-color: hsla(360, 100%, 100%, 0.8);
     }
 }
 /*      Potefolio Section*/
 
 .section_potefolio {
-    background-image: url("../images/Leafs/backgroundHalfLeaf1200x1500.png");
+    /* background-image: url("../images/Leafs/backgroundHalfLeaf1200x1500.png");
     background-repeat: no-repeat;
     background-position-x: left;
-    background-size: cover;  
+    background-size: cover;   */
     padding-top: 3rem;
 }
 
@@ -382,7 +383,7 @@ h2 {
 }
 .project {
     margin-top: 3rem;
-    border: 0.5rem solid hsla(2, 71%, 29%, 1));
+    border: 0.5rem solid hsla(2, 71%, 29%, 1);
     padding: 1rem 0rem;
     background-color: hsla(360, 100%, 100%, 0.8);
 }
@@ -407,12 +408,13 @@ h2 {
     background-position-x: -50px; 
     background-size: contain;
 }
-.content-whatIBring {
-    background-color: hsla(144, 14%, 52%, 0.8)
+.content-whatIBring .row div {
+    background-color: hsla(360, 100%, 100%, 0.8);
 }
 .content-whatIBring h2, .content-whatIBring p {
     text-align: start;
     padding: 0.5rem;
+    color: hsla(195, 3%, 30%, 0.95);
 }
 
 /*      Passions Section      */
@@ -420,7 +422,7 @@ h2 {
     padding: 0.5rem;
 }
 .passion h2 {
-    color: hsla(143, 54%, 8%, 0.949);
+    color: hsla(195, 3%, 30%, 0.95);
     padding-left: 0;
     padding-right: 0;
     margin: auto 0;
@@ -469,18 +471,13 @@ h2 {
     padding: 0 3rem 4rem 3rem;
     border-radius: 5rem;
 }
-.justify-content-around {
-    justify-content: space-around;
+
+#text-toggle-cb, #text-toggle-ad {
+    display: none;
 }
 
 
-#jw {
-    margin: 20rem;
-    /* transform: rotate(-10deg); */
-    width: 50%;
-    background-color: hsla(360, 100%, 100%, 1);
-    box-shadow: 70px 70px 100px rgb(95, 94, 94);
-    align-self: center;
-}
+
+
 
 

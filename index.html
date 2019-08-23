@@ -9,7 +9,8 @@
     <!--    Google Fonts   -->
     <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,800&display=swap" rel="stylesheet">
        <!--    Font Awesome   -->
-    <script src="https://kit.fontawesome.com/2e4892961b.js"></script>
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/v4-shims.css">
     <!--    Stylesheets   -->
     <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
     <!-- Bootstrap CSS -->
@@ -23,35 +24,35 @@
 <!--        Header     -->
     <header>
             <div class="pos-f-t fixed-top">
-                    <div class="collapse" id="navbarToggleExternalContent">
-                      <div class="p-4">
-                        <ul class="navbar-nav">
-                           <li>
-                               <a id="active" class="nav-link" href="#about-navi">About me</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#my_skills">My Skills</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#my_potfolio">My Potfolio</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#my_passions">My Passions</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#my_test">Testimonials</a>
-                            </li>
-                        </ul>   
-                      </div>
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="p-4">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a id="active" class="nav-link" href="#about-navi">About me</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#my_skills">Skills</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#my_potfolio">Potfolio</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#my_passions">Passions</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#my_test">Testimonials</a>
+                        </li>
+                    </ul>   
                     </div>
-                    <nav class="navbar">
-                      <button id="border-navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span style="font-size: 2rem;">
-                                <i class="fas fa-bars"></i>
-                            </span>
-                      </button>
-                    </nav>
-                  </div>
+                </div>
+                <nav class="navbar">
+                    <button id="border-navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span style="font-size: 2rem;">
+                            <i id="icon" class="fas fa-bars"></i>
+                        </span>
+                    </button>
+                </nav>
+                </div>
     </header>
 <!--    Bootstrap Carousel      -->
 
@@ -382,21 +383,25 @@
                 <h4>Division Director - KABOOKI Merchandise Line</h4>
                 <br>
                 <p>
-                    I have had the pleasure of working with Lasse at the Munkebjerg Group, where Lasse was employed as an account manager in my team.
-                    In the above position, Lasse has been responsible for serving customers in Zealand 
-                    <div id="text-toggle-ad"> and Greater Copenhagen within the private and public segment. In addition, he has been responsible for the budget and should develop the company's revenue, earnings and market position in his district.
-                    Lasse has during the period of employment partly worked independently, and partly to cooperate with his superiors and the conference departments in the hotels to our full satisfaction.
-                    Lasse is an incredibly loyal employee and has done his job to our full satisfaction, and we give him our best recommendations for a possible. future employer.
-                    Lasse is an incredibly comfortable, well-liked and trustworthy person who both manages to catch customers and colleagues and he never gives up before the order is done. 
-                    I can give Lasse my best recommendations. See less
-                </div>
+                     <!-- Text that is hidden before bottom is pressed -->
+                    <div id="text-toggle-ad">I have had the pleasure of working with Lasse at the Munkebjerg Group, where Lasse was employed as an account manager in my team.
+                        In the above position, Lasse has been responsible for serving customers in Zealand 
+                        and Greater Copenhagen within the private and public segment. In addition, he has been responsible for the budget and should develop the company's revenue, earnings and market position in his district.
+                        Lasse has during the period of employment partly worked independently, and partly to cooperate with his superiors and the conference departments in the hotels to our full satisfaction.
+                    </div>
+                <!-- Text that is shown all the time -->
+                Lasse is an incredibly loyal employee and has done his job to our full satisfaction, and we give him our best recommendations for a possible. future employer.
+                    <!-- Text that is hidden before bottom is pressed -->
+                    <div id="text-toggle-ad">Lasse is an incredibly comfortable, well-liked and trustworthy person who both manages to catch customers and colleagues and he never gives up before the order is done. 
+                        I can give Lasse my best recommendations. See less
+                    </div>
                 </p>
             
             <button id="toogle-btn-ad">Read more</button>
             </div>
         </div>     
     </div>
-    <p>Too see al the details of my previous jobs, head over to my LinkedIn profile <div class="btn">LinkedIn</div></p>
+    <p>Too see al the details of my previous jobs, head over to my LinkedIn profile <div class="btn linkedIn">LinkedIn</div></p>
 </section>
 
 

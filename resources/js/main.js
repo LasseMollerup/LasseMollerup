@@ -1,13 +1,22 @@
 $(document).ready(function(){
 
+    // Welcome alert
+    alert("Hello! and welcome to my site." + " " + "Here you can get to know me and see my current coding skills." + " "
+    + "In case you " + " " +
+    "- Lasse Mollerup"
+    );
     // Making the fontAwesome hamburger change to X and back when clicked.
     $(".fa-bars").on('click', function() {
         $("#icon").toggleClass("fa-bars fa-times");
     });
 
+    // $(".navbar-nav li a").on('click', function() {
+    //     $(".navbar-nav li a").addClass(".navbar-nav-active");
+    //   });
+
     // Setting the speed of the slides in the Carousel
     $('.carousel').carousel({
-        interval: 20000
+        interval: 200000
     });
     
     

@@ -1,30 +1,27 @@
 $(document).ready(function(){
 
     // Welcome Pop-up box 
-
-    // To close the Pop-up box, by either pressing the x or the bottom
-
-    $('#close').on('click', function () {
-        $('#welcome').css("display", "none");
+    // Making Bootstrap modal automatically show up once page is loaded.
+    $('#welcome-modal').modal('show');
+    // To make the bottoms in the Welcome Modal close the modal
+    $('#btnHideModal').on('click', function () {
+        $('#welcome-modal').modal('hide');
     });
 
-    $('.welcome-btn').on('click', function () {
-        $('#welcome').css("display", "none");
-    });
     
-
     // Making the fontAwesome hamburger change to X and back when clicked.
     $(".fa-bars").on('click', function() {
         $("#icon").toggleClass("fa-bars fa-times");
     });
 
-    // $(".navbar-nav li a").on('click', function() {
-    //     $(".navbar-nav li a").addClass(".navbar-nav-active");
-    //   });
+    $(".navbar-nav li a").on('click', function() {
+        $(".navbar-nav li a").addClass(".navbar-nav-active");
+      });
 
+    
     // Setting the speed of the slides in the Carousel
     $('.carousel').carousel({
-        interval: 200000
+        interval: 4000
     });
     
     

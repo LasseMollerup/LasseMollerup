@@ -1,10 +1,18 @@
 $(document).ready(function(){
 
-    // Welcome alert
-    alert("Hello! and welcome to my site." + " " + "Here you can get to know me and see my current coding skills." + " "
-    + "In case you " + " " +
-    "- Lasse Mollerup"
-    );
+    // Welcome Pop-up box 
+
+    // To close the Pop-up box, by either pressing the x or the bottom
+
+    $('#close').on('click', function () {
+        $('#welcome').css("display", "none");
+    });
+
+    $('.welcome-btn').on('click', function () {
+        $('#welcome').css("display", "none");
+    });
+    
+
     // Making the fontAwesome hamburger change to X and back when clicked.
     $(".fa-bars").on('click', function() {
         $("#icon").toggleClass("fa-bars fa-times");

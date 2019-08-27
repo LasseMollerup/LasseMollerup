@@ -16,6 +16,10 @@ body {
     width: 100%;
     color: hsla(190, 73%, 12%, 1);
     font-weight: 700;
+    position: relative;
+}
+section {
+        padding-top: 7rem;
 }
 h1 {
     text-align: left;
@@ -25,6 +29,7 @@ h2 {
     color: hsla(190, 68%, 24%, 0.95);
     font-weight: bold;
 }
+
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -47,18 +52,14 @@ h2 {
     top: 0.2rem;
 }
 
-
-hr.style-eight {
-    height: 10px;
-    border: 1;
+.style-hr {
+    width: 14rem;
+    height: 0.6rem;
     box-shadow: inset 0 9px 9px -3px hsla(190, 68%, 24%, 1);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
     border-radius: 5px;
-    margin: 5rem 15rem 0 15rem;
-    }
+    margin: 2rem auto;
+}
+
 
 /*      Main html       */
 
@@ -66,7 +67,7 @@ hr.style-eight {
 
 #welcome-modal {
     background-color: hsla(0, 0%, 0%, 0.8);
-    padding: 2rem;
+    padding: 2rem!important;
 }
 
 .modal-body .row img {
@@ -88,6 +89,7 @@ hr.style-eight {
 }
 .navbar-nav {
     margin-left: 2rem;
+    position: relative;
 }
 .navbar-nav li a {
     margin: auto 0.5rem;
@@ -96,7 +98,7 @@ hr.style-eight {
 .navbar-nav li a:hover {
     border-bottom: 2px solid hsla(360, 100%, 100%, 1);
 }
-.navbar-nav-active {
+.nav-link.active {
     border-bottom: 2px solid hsla(360, 100%, 100%, 1);
 }
 
@@ -110,8 +112,12 @@ hr.style-eight {
 .fas, .fas-bars {
     color: hsla(2, 71%, 29%, 1);
 }
-
-
+@media only screen and (min-width: 767px) {
+    #border-navbar-toggler {
+        padding-left: 1rem;
+    }
+}
+ 
 
 /*      Bootstrap Carousel      */
 #carouselExampleIndicators {
@@ -120,7 +126,7 @@ hr.style-eight {
     overflow: hidden;
     background-color: hsla(190, 68%, 24%, 0.95);
 }
-#carouselExampleIndicators h2 {
+#carouselExampleIndicators .carousel-h2 {
     color: hsla(360, 100%, 100%, 1);
     font-weight: 700;
     font-size: 1.5rem;
@@ -188,7 +194,7 @@ hr.style-eight {
     width: 100%;
     padding-top: 1rem;
 }
-.slide2 h2 {
+.slide2 .carousel-h2 {
     text-align: center;
 }
 .slide2 .row {
@@ -291,7 +297,7 @@ hr.style-eight {
     padding-top: 4rem;
     text-align: center;
 }
-.slide4 h2 {
+.slide4 .carousel-h2 {
     margin-bottom: 2rem;
     color: hsla(2, 71%, 29%, 1);
 }
@@ -318,6 +324,7 @@ hr.style-eight {
     background-repeat: no-repeat;
     background-position-x: 0;
     background-size: contain;  
+    
 }
 .about {
     background-color: transparent;
@@ -336,10 +343,10 @@ hr.style-eight {
 
 /* Jumping  */
 .jumping {
-    padding-left: 6rem;
     background-color: hsla(360, 100%, 100%, 0.8);
 }
 #jump {
+    margin-top: 6rem;
     margin-bottom: 3rem;
     transform: rotate(-10deg);
     border-radius: 5%;
@@ -353,7 +360,11 @@ hr.style-eight {
     color: hsla(190, 68%, 24%, 0.95);
     padding-bottom: 1rem;
 }
-
+@media only screen and (min-width: 767px) {
+    .jumping {
+        padding-left: 6rem;
+    }
+}
 /*      My Skills       */
 
 .skill_section {
@@ -362,12 +373,7 @@ hr.style-eight {
     background-repeat: no-repeat;
     background-size: contain;
 }
-/* .skills {
-    margin: 3rem auto;
-} */
-.skills h2 {
-    padding-top: 6rem;
-}
+
 
 /* The progress of my skills */
 .progress {
@@ -402,9 +408,6 @@ hr.style-eight {
 
 /*      Potefolio Section*/
 
-.section_potefolio h2 {
-    padding-top: 6rem;
-}
 
 .project {
     margin-top: 3rem;
@@ -424,9 +427,7 @@ hr.style-eight {
 
 /*      What I bring to the table       */
 
-.whatIBring {
-    margin: 2rem auto;
-    padding-bottom: 7rem;
+#whatIBring {
     background-image: url("../images/rickgrimesHalf.jpg");
     background-repeat: no-repeat;
     background-position-x: -50px; 
@@ -435,44 +436,20 @@ hr.style-eight {
 #content-whatIBring .row div {
     background-color: hsla(360, 100%, 100%, 0.8);
 }
-#content-whatIBring h2, .content-whatIBring p {
-    text-align: start;
-    padding: 0.5rem;
-}
-#content-whatIBring h2 {
-    padding-top: 6rem;
-}
+
+
 
 /*      Passions Section      */
+
 #my_passions {
-    margin-top: 2rem;
-}
-.pas-img {
-    padding: 0.5rem;
-}
-.passion h2 {
-    padding-top: 6rem;
-    padding-right: 0;
-    padding-left: 0;
-    margin: auto 0;
-}
-.passion, .passion h3, .passion p {
-    text-align: start;
-}
-.passion h3, .passion p {
-    padding: 0.5rem;
+    padding-top: 2rem;
 }
 
 
 /*      Testimonials Section      */
 
 .testimonials {
-    margin: 2rem auto;
-    padding-top: 2rem;
     padding-bottom: 2rem;
-}
-.testimonials h2 {
-    padding-top: 6rem;
 }
 .testimonials .row {
     display: flex;

@@ -10,13 +10,17 @@ $(document).ready(function(){
 
     
     // Making the fontAwesome hamburger change to X and back when clicked.
-    $(".fa-bars").on('click', function() {
-        $("#icon").toggleClass("fa-bars fa-times");
+    $("#border-navbar-toggler").on('click', function() {
+        $(".fa-bars").toggleClass("fa-times");
     });
 
-    $(".navbar-nav li a").on('click', function() {
-        $(".navbar-nav li a").addClass(".navbar-nav-active");
-      });
+    // $(".navbar-nav li a").on('click', function() {
+    //     // $(".navbar-nav li a").addClass(".navbar-nav-active");
+    //     $(this).addClass(".navbar-nav-active").siblings().removeClass(".navbar-nav-active");
+    //   });
+     $('[data-spy="scroll"]').each(function () {
+  var $spy = $(this).scrollspy('refresh')
+})
 
     
     // Setting the speed of the slides in the Carousel

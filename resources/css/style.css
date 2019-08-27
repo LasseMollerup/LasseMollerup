@@ -66,6 +66,7 @@ hr.style-eight {
 
 #welcome-modal {
     background-color: hsla(0, 0%, 0%, 0.8);
+    padding: 2rem;
 }
 
 .modal-body .row img {
@@ -73,7 +74,9 @@ hr.style-eight {
     border-radius: 50%;
     margin: 2rem auto;
 }
-
+#btnHideModal {
+    justify-self: center;
+}
 
 /*      Navigation Bar      */
 .navbar-nav {
@@ -120,6 +123,7 @@ hr.style-eight {
 #carouselExampleIndicators h2 {
     color: hsla(360, 100%, 100%, 1);
     font-weight: 700;
+    font-size: 1.5rem;
 }
 .carousel-inner {
     height: 100%;
@@ -131,6 +135,7 @@ hr.style-eight {
 }
 .carousel-item p {
     color: hsla(360, 100%, 100%, 1);
+    font-size: 0.8rem;
 }
 
 
@@ -215,9 +220,6 @@ hr.style-eight {
     text-align: center;
     font-size: 0.8rem;
 }
-#slide3h2 {
-    font-size: 1.7rem;
-}
 .slide3 .row {
     margin-top: 0.3rem;
 }
@@ -245,9 +247,8 @@ hr.style-eight {
         margin: 0;
     }
     #slide3h2 {
-        margin-top: 0.5rem;
+        margin-top: 0.7rem;
         padding-left: 2rem;
-        color: hsla(322, 10%, 84%, 1)!important;
     }
     .content-slide3 {
         text-align: left;
@@ -301,7 +302,9 @@ hr.style-eight {
     margin: 1rem 0 0 0;
     text-align: left;
 }
-
+.box4-content .col-4 h3 {
+    font-size: 1.2rem;
+}
 /*      Carousel Controls       */
 .carousel-control-prev, .carousel-control-next {
     top: 34rem;

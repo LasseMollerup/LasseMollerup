@@ -21,7 +21,7 @@ $(document).ready(function(){
     
     // Setting the speed of the slides in the Carousel
     $('.carousel').carousel({
-        interval: 4000
+        interval: 20000
     });
     
     

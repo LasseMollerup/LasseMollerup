@@ -41,13 +41,13 @@ h2 {
     font-size: 1rem;
     font-weight: bold;
 }
-.btn:hover {
+.btn:hover, .btn:active, .btn.focus, .btn:focus  {
     background-color:  hsla(322, 10%, 84%, 1);
+    border-color: hsla(322, 10%, 84%, 1);
     color: hsla(190, 68%, 24%, 0.95);
+    box-shadow: 0 0 0 0.2rem hsla(322, 10%, 84%, 1);
 }
 .btn:active {
-    background-color:  hsla(322, 10%, 84%, 1);
-    color: hsla(190, 68%, 24%, 0.95);
     position: relative;
     top: 0.2rem;
 }

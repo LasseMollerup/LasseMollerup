@@ -1,16 +1,19 @@
 <?php
-if(isset( $_POST['name']))
-$name = $_POST['name'];
-if(isset( $_POST['email']))
-$email = $_POST['email'];
-if(isset( $_POST['message']))
-$message = $_POST['message'];
-if(isset( $_POST['subject']))
-$subject = $_POST['subject'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
 
-$content="From: $name \n Email: $email \n Message: $message";
-$recipient = "l.mollerup@hotmail.com";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $content, $mailheader) or die("Error!");
-echo "Email sent!";
+    $email_from = 'Lasse Mollerup';
+    $email_subject = 'New message from website';
+    $email_body = "Name: $name.\n".
+                  "Email: $email.\n".
+                  "Message: $message.\n";
+
+    $to = "l.mollerup@hotmail.com";
+    $headers = "From: $email_from \r\n";
+    $headers .= "Reply-to: $email \r\n";
+
+    mail($to,$email_subject,$email_body,$headers);
+
+    header("location: index.html");
 ?>

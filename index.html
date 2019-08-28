@@ -438,17 +438,36 @@
 </section>
 
 <hr class="style-hr" /> 
-<!-- <section  class="container">
-    <h2 class="section-h2">Let's get in touch</h2> -->
-
-    
-    <form method="POST" action="https://formspree.io/l.mollerup@hotmail.com">
-        <input type="email" name="email" placeholder="Your email">
-        <textarea name="message" placeholder="Test Message"></textarea>
-        <button type="submit">Send Test</button>
-      </form>
-
-
+<section id="contact" class="container">    
+    <h2 class="section-h2">Let's get in touch</h2>
+    <div class="row">
+        <div class="col-12">
+            <p>If you have any questions, feedback or a interesting business proposal, please do not hesitate to contact me.</p>
+        </div>
+        <div class="col-12">
+            <form action="mail.php" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">
+                        <h3>Your name</h3>
+                        <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Type your name here">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail">
+                        <h3>Your E-mail</h3>
+                    </label>
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Type your e-mail here">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea">
+                        <h3>Your message</h3>
+                    </label>
+                    <textarea name="message" id="exampleFormControlTextarea" class="form-contol" placeholder="Type your message here"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+</section> 
 <!--        Scripts     -->
 
 

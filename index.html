@@ -56,7 +56,7 @@
     <header>
             <div class="pos-f-t fixed-top">
                 <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="p-4">
+                    <div id="navi" class="p-4">
                     <ul id="scrollspy-nav" class="navbar-nav smooth-scroll">
                         <li>
                             <a class="nav-link" href="#about-navi">About me</a>
@@ -437,14 +437,79 @@
 </section>
 
 <hr class="style-hr" /> 
-<section id="contact" class="container">
-    <h2 class="section-h2">Let's get in touch</h2>
-    <div class="row">
-        <div class="col-12">E-mail</div>
-        <div class="col-12">Phone</div>
-</section>
+<!-- <section  class="container">
+    <h2 class="section-h2">Let's get in touch</h2> -->
 
-</div>
+    
+<!--Section: Contact v.2-->
+<section id="contact" class="mb-4 container">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Let's get in touch</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions or a interesting business proposal? Please do not hesitate to contact me.</p>
+    <!--    Grid row 1    -->
+    <div class="row">
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <!--    Grid row 2    -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">Your email</label>
+                            <input type="text" id="email" name="email" class="form-control">                            
+                        </div>
+                    </div>
+                </div>
+                <!--    Grid row 3    -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <!--    Grid row 4    -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                                <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!--Buttom-->
+            <div class="text-center text-md-left">
+                <a id="contact-btn" class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Barcelona, España</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+45 31 47 41 81</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>l.mollerup@hotmail.com</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 
 <!--        Scripts     -->

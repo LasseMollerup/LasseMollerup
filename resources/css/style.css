@@ -83,14 +83,13 @@ h2 {
 .navbar-nav {
     display: inline-flex;
     flex-direction: row;
-}
-.p-4 {
-    background-color: hsla(190, 68%, 24%, 0.95);
-}
-.navbar-nav {
     margin-left: 2rem;
     position: relative;
 }
+#navi {
+    background-color: hsla(190, 68%, 24%, 0.95);
+}
+
 .navbar-nav li a {
     margin: auto 0.5rem;
     color: hsla(360, 100%, 100%, 1);
@@ -101,9 +100,11 @@ h2 {
 .nav-link.active {
     border-bottom: 2px solid hsla(360, 100%, 100%, 1);
 }
-
+.navbar {
+    padding-top: 0.1rem;
+}
 .navbar-toggler {
-    padding-left: 0;
+    padding: 0;
 }
 .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
@@ -112,6 +113,18 @@ h2 {
 .fas, .fas-bars {
     color: hsla(2, 71%, 29%, 1);
 }
+@media only screen and (max-width: 767px) {
+    #navi {
+        padding: 0.2rem!important;
+    }
+    #scrollspy-nav {
+        margin: 0;
+    }
+    .navbar-nav {
+        flex-wrap: wrap;
+    }
+}
+
 @media only screen and (min-width: 767px) {
     #border-navbar-toggler {
         padding-left: 1rem;
@@ -308,6 +321,10 @@ h2 {
     margin: 1rem 0 0 0;
     text-align: left;
 }
+.box4-content .col-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
 .box4-content .col-4 h3 {
     font-size: 1.2rem;
 }
@@ -486,7 +503,11 @@ h2 {
     display: none;
 }
 
+/*      Contact Section     */
 
+#contact-btn {
+    margin: 1.5rem auto;
+}
 
 
 

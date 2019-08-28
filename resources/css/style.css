@@ -518,11 +518,19 @@ h2 {
 }
 
 /*      Contact Section     */
-
+#contact {
+    margin-bottom: 4rem;
+}
 #contact-btn {
     margin: 1.5rem auto;
 }
-
-
+#exampleFormControlInput1, #exampleInputEmail, #exampleFormControlTextarea {
+    border: 2px solid hsla(190, 68%, 24%, 0.95);
+}
+#exampleFormControlTextarea {
+    width: 100%;
+    height: 10rem;
+    border: 2px solid hsla(190, 68%, 24%, 0.95);
+}
 
 

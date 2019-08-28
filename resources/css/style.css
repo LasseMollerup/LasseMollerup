@@ -318,7 +318,7 @@ h2 {
     text-align: left;
 }
 .box4-content {  
-    margin: 1rem 0 0 0;
+    margin: 2rem 0 0 0;
     text-align: left;
 }
 .box4-content .col-4 {
@@ -328,6 +328,7 @@ h2 {
 .box4-content .col-4 h3 {
     font-size: 1.2rem;
 }
+
 /*      Carousel Controls       */
 .carousel-control-prev, .carousel-control-next {
     top: 34rem;
@@ -444,22 +445,35 @@ h2 {
 
 /*      What I bring to the table       */
 
-#whatIBring {
+#content-whatIBring {
     background-image: url("../images/rickgrimesHalf.jpg");
-    background-repeat: no-repeat;
-    background-position-x: -50px; 
-    background-size: contain;
+    background-repeat: no-repeat; 
+    background-size: auto;
 }
 #content-whatIBring .row div {
     background-color: hsla(360, 100%, 100%, 0.8);
 }
 
-
+@media only screen and (max-width: 767px) {
+    #content-whatIBring {
+        background-image: url("../images/rickgrimesHalf.jpg");
+        background-repeat: no-repeat;
+        background-position-x: -90px; 
+        background-size: auto;
+    }
+}
 
 /*      Passions Section      */
+#my_passions .row div {
+    background-color: hsla(360, 100%, 100%, 0.8);
+}
 
+@media only screen and (min-width: 767px) {
 #my_passions {
     padding-top: 2rem;
+    background-image: url("../images/Stones500x1100.png");
+    background-repeat: no-repeat;
+    }
 }
 
 

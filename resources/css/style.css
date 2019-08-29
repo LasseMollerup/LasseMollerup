@@ -66,14 +66,17 @@ h2 {
 /* Welcome pop-up box*/
 
 #welcome-modal {
-    background-color: hsla(0, 0%, 0%, 0.8);
+    background-color: hsla(0, 0%, 0%, 0.3);
     padding: 2rem!important;
 }
 
 .modal-body .row img {
     width: 35%;
     border-radius: 50%;
-    margin: 2rem auto;
+    margin: 1rem auto;
+}
+.modal-body, .modal-header {
+    background-color: hsla(360, 100%, 100%, 0.2);
 }
 #btnHideModal {
     justify-self: center;
@@ -424,7 +427,7 @@ h2 {
     }
 }
 
-/*      Potefolio Section*/
+/*      Portfolio Section*/
 
 
 .project {
@@ -446,26 +449,20 @@ h2 {
 /*      What I bring to the table       */
 
 #content-whatIBring {
-    background-image: url("../images/rickgrimesHalf.jpg");
+    background-image: url("../images/rickgrimes.jpg");
     background-repeat: no-repeat; 
-    background-size: auto;
+    background-size: contain;
 }
 #content-whatIBring .row div {
     background-color: hsla(360, 100%, 100%, 0.8);
 }
 
-@media only screen and (max-width: 767px) {
-    #content-whatIBring {
-        background-image: url("../images/rickgrimesHalf.jpg");
-        background-repeat: no-repeat;
-        background-position-x: -90px; 
-        background-size: auto;
-    }
-}
-
 /*      Passions Section      */
 #my_passions .row div {
     background-color: hsla(360, 100%, 100%, 0.8);
+}
+.pas-img {
+    box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4), 0 10px 20px rgba(0, 0, 0, 0.19);
 }
 
 @media only screen and (min-width: 767px) {
@@ -509,7 +506,6 @@ h2 {
     margin: 1rem;
 }
 .box-content {
-    padding: 0 3rem 4rem 3rem;
     border-radius: 5rem;
 }
 

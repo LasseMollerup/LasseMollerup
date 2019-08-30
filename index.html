@@ -103,51 +103,48 @@
         </ol>
         <div class="carousel-inner container-fluid">
             <!--        Slide 1        -->
-            <div class="carousel-item active slide1">
-                <a href="#about-navi">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-sm-6 image-slide1">
-                            <div class="slide-img1">
-                                <img class="img-fluid d-block mx-auto" src="./resources/images/LMO/CoffeeFrames330x330.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 content-slide1">
-                            <div id="slide1Content">
-                                <h2 class="carousel-h2">QUICK FACTS</h2>
-                                <p>100% Danish Viking turned traveller</p>
-                                <p>Born the year Windows 1.0 was released (1985)</p>
-                                <p>Mexico is home until fall 2019, then it’s Barcelona</p>
-                                <p>TV-series nerd, Arsenal FC geek and handyman</p>
-                                <p>HTML, CSS, JavaScript are my newest friends</p>
-                            </div>
+            <div class="carousel-item slide1 active">
+                <div class="row align-items-center">
+                    <div class="col-12 col-sm-6 image-slide1">
+                        <div class="slide-img1">
+                            <img class="img-fluid d-block mx-auto" src="./resources/images/LMO/CoffeeFrames330x330.png" alt="">
                         </div>
                     </div>
-                </a>
+                    <div class="col-12 col-sm-6 content-slide1">
+                        <div id="slide1Content">
+                            <h2 class="carousel-h2">QUICK FACTS</h2>
+                            <p>100% Danish Viking turned traveller</p>
+                            <p>Born the year Windows 1.0 was released (1985)</p>
+                            <p>Mexico is home until fall 2019, then it’s Barcelona</p>
+                            <p>TV-series nerd, Arsenal FC geek and handyman</p>
+                            <p>HTML, CSS, JavaScript are my newest friends</p>
+                            <a href="#about-navi"><button class="btn">Read more</button></a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!--        Slide 2        -->
             <div class="carousel-item container-fluid slide2">
-                <a href="#my_skills">
-                        <div class="row slide2-row">
-                            <div class="col-12 d-flex carousel-h2">
-                                <h2 class="mx-auto my-auto">My Skills</h2></div>
-                            <div class="col-12 col-md-4 bgImg1-slide2 d-flex">
-                                <img class="img-fluid" src="./resources/images/skills/Skills1.Size265x158.png" alt="">
-                                <div class="slide2-text heading1">HTML</div>
-                            </div>
-                            <div class="col-12 col-md-4 bgImg1-slide2 d-flex">
-                                <img class="img-fluid" src="./resources/images/skills/Skills2.Size265x158.png" alt="">
-                                <div class="slide2-text heading2">CSS</div>
-                            </div>
-                            <div class="col-12 col-md-4 bgImg1-slide2 d-flex">
-                                <img class="img-fluid" src="./resources/images/skills/Skills3.Size265x158.png" alt="">
-                                <div class="slide2-text heading3">JavaScript</div>
-                            </div>
-                        </div>
-                </a>
+                <div class="row slide2-row">
+                    <div class="col-12 d-flex carousel-h2">
+                        <h2 class="mx-auto my-auto">My Skills</h2></div>
+                    <div class="col-12 col-md-4 img-slide2 d-flex">
+                        <img class="img-fluid my-auto" src="./resources/images/skills/Skills1.Size265x158.png" alt="">
+                        <div class="slide2-text heading1">HTML</div>
+                    </div>
+                    <div class="col-12 col-md-4 img-slide2 d-flex">
+                        <img class="img-fluid my-auto" src="./resources/images/skills/Skills2.Size265x158.png" alt="">
+                        <div class="slide2-text heading2">CSS</div>
+                    </div>
+                    <div class="col-12 col-md-4 img-slide2 d-flex">
+                        <img class="img-fluid my-auto" src="./resources/images/skills/Skills3.Size265x158.png" alt="">
+                        <div class="slide2-text heading3">JavaScript</div>
+                    </div>
+                    <div id="slide2-btn-col" class="col-12"><a href="#my_skills" class="d-flex"><button class="btn mx-auto my-auto">Read more</button></a></div>
+                </div>
             </div>
             <!--        Slide 3        -->
             <div class="carousel-item container-fluid slide3">
-                <a href="#my_passions">
                     <h2 id="slide3h2" class="carousel-h2">What makes me tick</h2>
                     <div class="row">
                         <div class="col-6 img-slide3">
@@ -177,13 +174,12 @@
                         <div class="col-6 content-slide3">
                             <h3>Binge-watching</h3>
                             <p>Billions, TWD, Gotham - Can't stop once I start</p>
+                            <a href="#my_passions"><button class="btn">Read more</button></a>
                         </div>
                     </div>
-                </a>
             </div>
             <!--        Slide 4        -->
             <div class="carousel-item container-fluid slide4">
-                <a href="#my_test">
                     <h2 class="carousel-h2">WHAT HAS BEEN SAID ABOUT ME</h2>
                     <div class="row justify-content-around">
                         <div class="col-4 image-slide4">
@@ -206,8 +202,8 @@
                             <p>Adrian J. Durrani</p>
                             <p>"Lasse is an incredibly loyal employee and has done his job to our full satisfaction..."</p>
                         </div>
+                        <div class="col-12 d-flex"><a class="mx-auto" href="#my_test"><button id="slide4-btn" class="btn">Read more</button></a></div>
                     </div>
-                </a>
             </div>
         </div>
         <!--        Carousel Controls       -->
@@ -266,7 +262,7 @@
                     <h2 class="section-h2">My Skills</h2>
                     <p>I have taken a 10 weeks online course on CodeCademy to learn how to code with html, css, Javascript and JQuery.</p>
                     <p>I am very confident in working with html and css, both buliding the pages from scratch or by using frameworks like Bootstrap.</p>
-                    <p>For text-editors, I prefer working with Visual Studio Code, however I have also worked with Atom for a few mounths, just to try something different.</p>
+                    <p>For text-editors, I prefer working with Visual Studio Code, however I have also worked with Atom for a few months, just to try something different.</p>
                     <p>To create, update and save my projects I use Git Bash when working on my Windows laptop and the Terminal when working on a Mac.</p>
                     <p>To store and showcase my portfolio I use GitHub.</p>
                     <p>For cropping, editing and styling images I use both general CSS codes and I am confident in using Paint 3D from Windows and Canva.com.</p>
@@ -311,7 +307,7 @@
                             <span>JQuery</span>
                         </div>
                     </div>
-                    <p>Just like with Bootstrap, I like that Jquery can make my my code very simple.</p>
+                    <p>Just like with Bootstrap, I like that Jquery can make my code very simple.</p>
                 </div>
             </div>
         </div>

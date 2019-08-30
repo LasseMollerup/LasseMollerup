@@ -144,7 +144,7 @@ h3 {
     height: 40rem;
     width: 100%;
     overflow: hidden;
-    background-color: hsla(190, 68%, 24%, 0.95);
+    background-color: rgba(19, 88, 102, 0.95);
 }
 #carouselExampleIndicators .carousel-h2 {
     color: hsla(360, 100%, 100%, 1);
@@ -210,26 +210,37 @@ h3 {
 }
 
 /*      Slide 2     */
-.slide2 {
-    width: 100%;
-    padding-top: 1rem;
-}
-.slide2 .carousel-h2 {
-    text-align: center;
-}
-.slide2 .row {
-    text-align: center;
-    height: 80%;
-}
-.image-slide2 {
-    padding-bottom: 1rem;
+
+/* .carousel-h2 {
+    padding-top: 2rem;
+} */
+.carousel-h2 h2 {
+    color: hsla(360, 100%, 100%, 1);
 }
 
-/* Extra styling of screensizes on Slide 2 */
-@media only screen and (max-width: 767px) {
-    .image-slide2 img {
-        height: 35%;
-    }
+.slide2-row {
+    height: 32rem;
+}
+
+.bgImg1-slide2 {
+    /* background-image: url("../images/skills/400x240bgImg1.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    align-items: center;
+    justify-content: center;
+    height: 11rem;
+    width: auto;
+    margin-top: 0;
+    position: relative;
+    
+
+}
+.slide2-text {
+    font-size: 2rem;
+    line-height: 2rem;
+    background-color: hsla(360, 100%, 100%, 0.5);
+    position: absolute;
+    z-index: 2;
 }
 
 
@@ -399,7 +410,7 @@ h3 {
     background-size: contain;
 }
 .skill-content {
-    background-color: hsla(360, 100%, 100%, 0.8);
+    background-color: #ffffffcc;
 }
 
 /* The progress of my skills */
@@ -442,7 +453,7 @@ h3 {
 }
 
 .border-img {
-    border: 0.4rem solid hsla(190, 68%, 24%, 0.95);
+    border: 0.4rem solid #135866f2;
     padding: 0.5rem;
 }
 

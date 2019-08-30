@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     // Welcome Pop-up box 
     // Making Bootstrap modal automatically show up once page is loaded.
-    $('#welcome-modal').modal('show');
+    // $('#welcome-modal').modal('show');
     // To make the bottoms in the Welcome Modal close the modal
     $('#btnHideModal').on('click', function () {
         $('#welcome-modal').modal('hide');

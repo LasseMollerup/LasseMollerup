@@ -423,7 +423,7 @@ a:-webkit-any-link {
     background-color: hsla(360, 100%, 100%, 0.8);
 }
 #jump {
-    margin-top: 6rem;
+    margin-top: 4rem;
     margin-bottom: 3rem;
     transform: rotate(-10deg);
     border-radius: 5%;

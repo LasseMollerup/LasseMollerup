@@ -26,7 +26,7 @@ body {
     position: relative;
 }
 section {
-        padding-top: 7rem;
+    padding-top: 7rem;
 }
 h1 {
     text-align: left;
@@ -40,7 +40,6 @@ h3 {
     color: hsla(190, 68%, 24%, 0.95);
     font-weight: bold;
 }
-
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -62,7 +61,6 @@ h3 {
     position: relative;
     top: 0.2rem;
 }
-
 .style-hr {
     width: 14rem;
     height: 0.6rem;
@@ -71,16 +69,14 @@ h3 {
     margin: 4rem auto 2rem auto;
 }
 
-
-/*      Main html       */
-
-/* Welcome pop-up box*/
+/***************************
+      Welcome pop-up box    
+****************************/
 
 #welcome-modal {
     background-color: hsla(0, 0%, 0%, 0.3);
     padding: 2rem!important;
 }
-
 .modal-body .row img {
     width: 35%;
     border-radius: 50%;
@@ -93,7 +89,9 @@ h3 {
     justify-self: center;
 }
 
-/*      Navigation Bar      */
+/***************************
+      Navigation Bar        
+****************************/
 .navbar-nav {
     display: inline-flex;
     flex-direction: row;
@@ -103,7 +101,6 @@ h3 {
 #navi {
     background-color: hsla(190, 68%, 24%, 0.95);
 }
-
 .navbar-nav li a {
     margin: auto 0.5rem;
     color: hsla(360, 100%, 100%, 1);
@@ -127,6 +124,7 @@ h3 {
 .fas, .fas-bars {
     color: hsla(2, 71%, 29%, 1);
 }
+/******     Media Screens    ******/
 @media only screen and (max-width: 767px) {
     #navi {
         padding: 0.2rem!important;
@@ -138,15 +136,16 @@ h3 {
         flex-wrap: wrap;
     }
 }
-
 @media only screen and (min-width: 767px) {
     #border-navbar-toggler {
         padding-left: 1rem;
     }
 }
  
+/***************************
+      Bootstrap Carousel    
+****************************/
 
-/*      Bootstrap Carousel      */
 #carouselExampleIndicators {
     height: 40rem;
     width: 100%;
@@ -166,7 +165,6 @@ h3 {
     width: 100%;
     height: 100%;
 }
-
 a:-webkit-any-link {
     color: hsla(360, 100%, 100%, 1);
     cursor: none;
@@ -176,8 +174,7 @@ a:-webkit-any-link {
     font-size: 0.8rem;
 }
 
-
-/*      Slide 1     */
+/******    Slide 1    ******/
 .slide1 {
     width: 100%;
 }
@@ -195,7 +192,7 @@ a:-webkit-any-link {
     text-align: right;
     line-height: 1rem;
 }
-/* Extra styling of screensizes on Slide 1 */
+/******     Media Screens    ******/
 @media only screen and (max-width: 574px) {
     #slide1Content {
         padding-bottom: 2.5rem;
@@ -221,7 +218,7 @@ a:-webkit-any-link {
     }
 }
 
-/*      Slide 2     */
+/******    Slide 2    ******/
 
 .carousel-h2 h2 {
     color: hsla(360, 100%, 100%, 1);
@@ -257,7 +254,6 @@ a:-webkit-any-link {
 }
 .heading3 {
     font-family: sans-serif; 
-    /* letter-spacing: 2px; */
     font-size: 2rem;
     line-height: 2rem;
     color: #000000;
@@ -266,6 +262,7 @@ a:-webkit-any-link {
 #slide2-btn-col {
     height: 1.5rem;
 }
+/******     Media Screens    ******/
 @media only screen and (max-width: 767px) {
     .carousel-h2 h2 {
         font-size: 1.5rem;
@@ -286,9 +283,10 @@ a:-webkit-any-link {
         top: 2rem;
     }
 }
-/*      Slide 3     */
 
-/* Working with diffent image sizes on Slide 3 *
+/******    Slide 3    ******/
+
+/* Working with 2 diffent image sizes on Slide 3
    to better fit the different screen sizes
 */
 #slideImgLarge {
@@ -319,7 +317,7 @@ a:-webkit-any-link {
     margin-top: 0.5rem;
     padding-right: 1.5rem;
 }
-/* Extra styling of screensizes on Slide 3 */
+/******     Media Screens    ******/
 @media only screen and (max-width: 425px) {
     .slide3 {
         padding: 0rem;
@@ -364,7 +362,7 @@ a:-webkit-any-link {
     }
 }
 
-/*      Slide 4     */
+/******    Slide 4    ******/
 .slide4 {
     padding-top: 4rem;
     text-align: center;
@@ -391,20 +389,20 @@ a:-webkit-any-link {
     margin-top: 1rem;
 }
 
-/*      Carousel Controls       */
+/****** Carousel Controls ******/
 .carousel-control-prev, .carousel-control-next {
     top: 34rem;
 }
 
 
-
-/*      About Me        */
+/***********************
+        About Me        
+***********************/
 .about_section {
     background-image: url("../images/batman-chalk-drawing-bad-cape-cropped.jpg");
     background-repeat: no-repeat;
     background-position-x: 0;
     background-size: contain;  
-    
 }
 .about {
     background-color: transparent;
@@ -420,8 +418,7 @@ a:-webkit-any-link {
     background-color: hsla(360, 100%, 100%, 0.8);
 }
 
-
-/* Jumping  */
+/****** Jumping ******/
 .jumping {
     background-color: hsla(360, 100%, 100%, 0.8);
 }
@@ -442,10 +439,12 @@ a:-webkit-any-link {
 }
 @media only screen and (min-width: 767px) {
     .jumping {
-        padding-left: 6rem;
+    padding-left: 6rem;
     }
 }
-/*      My Skills       */
+/***********************
+        My Skills       
+***********************/
 
 .skill_section {
     background-image: url("../images/acf2-cropped.jpg");
@@ -482,12 +481,13 @@ a:-webkit-any-link {
 }
 @media only screen and (max-width: 768px) {
     .skill_section {
-        background-image: url("../images/afcBackground300x1200.png");
-        }
+    background-image: url("../images/afcBackground300x1200.png");
+    }
 }
 
-/*      Portfolio Section*/
-
+/*******************************
+        Portfolio Section       
+*******************************/
 
 .project {
     margin-top: 3rem;
@@ -505,7 +505,9 @@ a:-webkit-any-link {
     margin-top: 4rem;
 }
 
-/*      What I bring to the table       */
+/***************************************
+        What I bring to the table       
+***************************************/
 
 #content-whatIBring .row{
     background-image: url("../images/rickgrimes.jpg");
@@ -517,7 +519,9 @@ a:-webkit-any-link {
     background-color: hsla(360, 100%, 100%, 0.8);
 }
 
-/*      Passions Section      */
+/*******************************
+        Passions Section        
+*******************************/
 
 #my_passions .row div {
     background-color: hsla(360, 100%, 100%, 0.8);
@@ -538,7 +542,9 @@ a:-webkit-any-link {
 }
 
 
-/*      Testimonials Section      */
+/***********************************
+        Testimonials Section        
+***********************************/
 
 .testimonials {
     padding-bottom: 2rem;
@@ -546,7 +552,6 @@ a:-webkit-any-link {
 .testimonials .row {
     display: flex;
 }
-
 .box {
     margin: 2rem 1rem;
     padding:0;
@@ -554,14 +559,12 @@ a:-webkit-any-link {
     border-radius: 5rem;
     background-color: hsla(360, 100%, 100%, 0.7);
 }
-
 .box-img {
     background-color: hsla(190, 68%, 24%, 0.95);
     display: flex;
     flex-direction: column;
     border-radius: 5rem 5rem 0 0;
 }
-
 .box-img .img-fluid {
     max-width: 50%;
     min-width: 200px;
@@ -582,7 +585,9 @@ a:-webkit-any-link {
     display: none;
 }
 
-/*      Contact Section     */
+/******************************
+        Contact Section        
+*******************************/
 #contact {
     margin-bottom: 4rem;
 }
